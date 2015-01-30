@@ -1,0 +1,43 @@
+non-fluents nf_recon_verysmall_inst_mdp__1 {
+	domain = recon_mdp; 
+	objects { 
+		x_pos : {x0,x1};
+		y_pos : {y0,y1};
+		obj : {o0,o1};
+		agent : {a1};
+		tool : {l1,w1,p1};
+
+	}; 
+	non-fluents {
+		ADJACENT-LEFT(x0, x0);
+		ADJACENT-DOWN(y0, y0);
+		ADJACENT-RIGHT(x0, x1);
+		ADJACENT-UP(y0, y1);
+		ADJACENT-LEFT(x1, x0);
+		ADJACENT-DOWN(y1, y0);
+		ADJACENT-RIGHT(x1, x1);
+		ADJACENT-UP(y1, y1);
+		WATER_TOOL(w1);
+		LIFE_TOOL(l1);
+		CAMERA_TOOL(p1);
+		BASE(x1,y0);
+		objAt(o0,x0,y0);
+		objAt(o1,x0,y1);
+		HAZARD(x0,y1);
+		DAMAGE_PROB(w1) = 0.46199602;
+		DAMAGE_PROB(l1) = 0.27678326;
+		GOOD_PIC_WEIGHT = 0.14254616;
+		BAD_PIC_WEIGHT = 0.27374282;
+	};
+}
+instance recon_verysmall_inst_mdp__1 { 
+	domain = recon_mdp; 
+ 	non-fluents = nf_recon_verysmall_inst_mdp__1;
+	init-state { 
+		agentAt(a1,x1,y0);
+	};
+	max-nondef-actions = 1;
+	horizon = 40;
+	discount = 0.99;
+} 
+

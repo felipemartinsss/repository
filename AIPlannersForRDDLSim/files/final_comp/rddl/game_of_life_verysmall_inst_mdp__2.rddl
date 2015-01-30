@@ -1,0 +1,49 @@
+non-fluents nf_game_of_life_verysmall_inst_mdp__2 {
+	domain = game_of_life_mdp;
+	objects {
+		x_pos : {x1,x2,x3};
+		y_pos : {y1,y2};
+	};
+	non-fluents {
+		NOISE-PROB(x1,y1) = 0.22528958;
+		NEIGHBOR(x1,y1,x1,y2);
+		NEIGHBOR(x1,y1,x2,y1);
+		NEIGHBOR(x1,y1,x2,y2);
+		NOISE-PROB(x1,y2) = 0.12322618;
+		NEIGHBOR(x1,y2,x1,y1);
+		NEIGHBOR(x1,y2,x2,y1);
+		NEIGHBOR(x1,y2,x2,y2);
+		NOISE-PROB(x2,y1) = 0.24542522;
+		NEIGHBOR(x2,y1,x1,y1);
+		NEIGHBOR(x2,y1,x1,y2);
+		NEIGHBOR(x2,y1,x2,y2);
+		NEIGHBOR(x2,y1,x3,y1);
+		NEIGHBOR(x2,y1,x3,y2);
+		NOISE-PROB(x2,y2) = 0.15090168;
+		NEIGHBOR(x2,y2,x1,y1);
+		NEIGHBOR(x2,y2,x1,y2);
+		NEIGHBOR(x2,y2,x2,y1);
+		NEIGHBOR(x2,y2,x3,y1);
+		NEIGHBOR(x2,y2,x3,y2);
+		NOISE-PROB(x3,y1) = 0.22414216;
+		NEIGHBOR(x3,y1,x2,y1);
+		NEIGHBOR(x3,y1,x2,y2);
+		NEIGHBOR(x3,y1,x3,y2);
+		NOISE-PROB(x3,y2) = 0.22538069;
+		NEIGHBOR(x3,y2,x2,y1);
+		NEIGHBOR(x3,y2,x2,y2);
+		NEIGHBOR(x3,y2,x3,y1);
+	};
+}
+
+instance game_of_life_verysmall_inst_mdp__2 {
+	domain = game_of_life_mdp;
+	non-fluents = nf_game_of_life_verysmall_inst_mdp__2;
+	init-state {
+		alive(x1,y2);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 0.99;
+}

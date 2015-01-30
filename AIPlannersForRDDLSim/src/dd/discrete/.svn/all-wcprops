@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/173/trunk/src/dd/discrete
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/63/trunk/src/dd/discrete/Test.java
+END
+ADDBNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/63/trunk/src/dd/discrete/ADDBNode.java
+END
+ADDRNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/63/trunk/src/dd/discrete/ADDRNode.java
+END
+TestEnumPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/75/trunk/src/dd/discrete/TestEnumPath.java
+END
+ADDDNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/63/trunk/src/dd/discrete/ADDDNode.java
+END
+ReduceCacheKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/63/trunk/src/dd/discrete/ReduceCacheKey.java
+END
+SDNodeIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/63/trunk/src/dd/discrete/SDNodeIndex.java
+END
+SNodePair.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/63/trunk/src/dd/discrete/SNodePair.java
+END
+DD.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/63/trunk/src/dd/discrete/DD.java
+END
+ADDINode.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/63/trunk/src/dd/discrete/ADDINode.java
+END
+ADD.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/173/trunk/src/dd/discrete/ADD.java
+END
+SINodeIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/63/trunk/src/dd/discrete/SINodeIndex.java
+END
+ADDNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/63/trunk/src/dd/discrete/ADDNode.java
+END

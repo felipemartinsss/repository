@@ -1,0 +1,361 @@
+statevars
+	robot_at__x1_y1 robot_at__x1_y2 robot_at__x1_y3 robot_at__x2_y1 robot_at__x2_y2 robot_at__x2_y3 
+endstatevars
+
+states
+	S10, S11, S40, S14, S15, S12, S13, S18, S2, S19, S1, S16, S0, S17, S49, S48, S47, S46, S45, S44, S43, S42, S41, S50, S51, S57, S56, S59, S58, S53, S52, S55, S54, S36, S37, S34, S35, S61, S32, S62, S33, S30, S60, S31, S38, S39, S63, S23, S24, S25, S26, S20, S21, S22, S27, S28, S29, S3, S4, S5, S6, S7, S8, S9
+endstates
+
+statedescription
+	S58 [false, false, true, false, true, true]
+	S4 [true, true, false, true, true, false]
+	S59 [false, false, true, false, false, true]
+	S18 [false, true, true, false, true, false]
+	S34 [true, true, true, false, true, true]
+	S36 [true, true, false, true, true, true]
+	S2 [true, true, true, false, true, false]
+	S13 [true, false, false, true, false, false]
+	S12 [true, false, false, true, true, false]
+	S45 [true, false, false, true, false, true]
+	S26 [false, false, true, false, true, false]
+	S61 [false, false, false, true, false, true]
+	S11 [true, false, true, false, false, false]
+	S15 [true, false, false, false, false, false]
+	S8 [true, false, true, true, true, false]
+	S29 [false, false, false, true, false, false]
+	S40 [true, false, true, true, true, true]
+	S43 [true, false, true, false, false, true]
+	S54 [false, true, false, false, true, true]
+	S51 [false, true, true, false, false, true]
+	S22 [false, true, false, false, true, false]
+	S38 [true, true, false, false, true, true]
+	S53 [false, true, false, true, false, true]
+	S19 [false, true, true, false, false, false]
+	S41 [true, false, true, true, false, true]
+	S56 [false, false, true, true, true, true]
+	S49 [false, true, true, true, false, true]
+	S17 [false, true, true, true, false, false]
+	S35 [true, true, true, false, false, true]
+	S21 [false, true, false, true, false, false]
+	S32 [true, true, true, true, true, true]
+	S46 [true, false, false, false, true, true]
+	S10 [true, false, true, false, true, false]
+	S3 [true, true, true, false, false, false]
+	S14 [true, false, false, false, true, false]
+	S0 [true, true, true, true, true, false]
+	S37 [true, true, false, true, false, true]
+	S62 [false, false, false, false, true, true]
+	S5 [true, true, false, true, false, false]
+	S6 [true, true, false, false, true, false]
+	S24 [false, false, true, true, true, false]
+	S9 [true, false, true, true, false, false]
+	S42 [true, false, true, false, true, true]
+	S30 [false, false, false, false, true, false]
+	S48 [false, true, true, true, true, true]
+	S20 [false, true, false, true, true, false]
+	S16 [false, true, true, true, true, false]
+	S60 [false, false, false, true, true, true]
+	S63 [false, false, false, false, false, true]
+	S1 [true, true, true, true, false, false]
+	S7 [true, true, false, false, false, false]
+	S25 [false, false, true, true, false, false]
+	S57 [false, false, true, true, false, true]
+	S52 [false, true, false, true, true, true]
+	S28 [false, false, false, true, true, false]
+	S31 [false, false, false, false, false, false]
+	S33 [true, true, true, true, false, true]
+	S39 [true, true, false, false, false, true]
+	S44 [true, false, false, true, true, true]
+	S27 [false, false, true, false, false, false]
+	S23 [false, true, false, false, false, false]
+	S47 [true, false, false, false, false, true]
+	S50 [false, true, true, false, true, true]
+	S55 [false, true, false, false, false, true]
+endstatedescription
+
+action move_east
+	S8 S60 1.0 -1.0
+	S36 S63 1.0 0.0
+	S54 S63 1.0 0.0
+	S12 S28 1.0 -1.0
+	S61 S63 1.0 0.0
+	S0 S61 0.9194902 -1.0
+	S16 S61 0.9194902 -1.0
+	S29 S29 1.0 -1.0
+	S24 S60 1.0 -1.0
+	S60 S63 1.0 0.0
+	S13 S29 1.0 -1.0
+	S20 S29 0.9194902 -1.0
+	S57 S63 1.0 0.0
+	S22 S30 0.08050979 -1.0
+	S52 S63 1.0 0.0
+	S26 S62 1.0 -1.0
+	S28 S28 1.0 -1.0
+	S45 S63 1.0 0.0
+	S4 S28 0.08050979 -1.0
+	S32 S63 1.0 0.0
+	S40 S63 1.0 0.0
+	S41 S63 1.0 0.0
+	S18 S63 0.9194902 -1.0
+	S30 S30 1.0 -1.0
+	S59 S63 1.0 0.0
+	S0 S60 0.08050979 -1.0
+	S20 S28 0.08050979 -1.0
+	S25 S61 1.0 -1.0
+	S44 S63 1.0 0.0
+	S31 S31 1.0 -1.0
+	S56 S63 1.0 0.0
+	S63 S63 1.0 0.0
+	S22 S31 0.9194902 -1.0
+	S62 S63 1.0 0.0
+	S16 S60 0.08050979 -1.0
+	S50 S63 1.0 0.0
+	S18 S62 0.08050979 -1.0
+	S4 S29 0.9194902 -1.0
+	S58 S63 1.0 0.0
+	S48 S63 1.0 0.0
+	S9 S61 1.0 -1.0
+endaction
+
+action move_north
+	S13 S31 0.025221284 -1.0
+	S9 S26 0.0022083544 -1.0
+	S18 S59 1.0 -1.0
+	S33 S63 1.0 0.0
+	S12 S55 0.97257036 -1.0
+	S14 S55 0.97257036 -1.0
+	S25 S27 0.9194902 -1.0
+	S24 S59 1.0 -1.0
+	S29 S31 0.9194902 -1.0
+	S10 S51 0.97257036 -1.0
+	S19 S27 1.0 -1.0
+	S61 S63 1.0 0.0
+	S14 S63 0.027429638 -1.0
+	S8 S51 0.97257036 -1.0
+	S17 S27 0.9194902 -1.0
+	S1 S26 0.08050979 -1.0
+	S17 S26 0.08050979 -1.0
+	S60 S63 1.0 0.0
+	S47 S63 1.0 0.0
+	S9 S18 0.07830143 -1.0
+	S8 S59 0.027429638 -1.0
+	S10 S59 0.027429638 -1.0
+	S57 S63 1.0 0.0
+	S13 S23 0.89426893 -1.0
+	S51 S63 1.0 0.0
+	S45 S63 1.0 0.0
+	S32 S63 1.0 0.0
+	S40 S63 1.0 0.0
+	S41 S63 1.0 0.0
+	S46 S63 1.0 0.0
+	S15 S23 0.97257036 -1.0
+	S59 S63 1.0 0.0
+	S9 S27 0.025221284 -1.0
+	S26 S59 1.0 -1.0
+	S11 S19 0.97257036 -1.0
+	S12 S63 0.027429638 -1.0
+	S13 S30 0.0022083544 -1.0
+	S42 S63 1.0 0.0
+	S29 S30 0.08050979 -1.0
+	S13 S22 0.07830143 -1.0
+	S9 S19 0.89426893 -1.0
+	S44 S63 1.0 0.0
+	S34 S63 1.0 0.0
+	S3 S27 1.0 -1.0
+	S25 S26 0.08050979 -1.0
+	S31 S31 1.0 -1.0
+	S56 S63 1.0 0.0
+	S2 S59 1.0 -1.0
+	S63 S63 1.0 0.0
+	S62 S63 1.0 0.0
+	S0 S59 1.0 -1.0
+	S50 S63 1.0 0.0
+	S35 S63 1.0 0.0
+	S11 S27 0.027429638 -1.0
+	S49 S63 1.0 0.0
+	S1 S27 0.9194902 -1.0
+	S58 S63 1.0 0.0
+	S27 S27 1.0 -1.0
+	S48 S63 1.0 0.0
+	S43 S63 1.0 0.0
+	S16 S59 1.0 -1.0
+	S15 S31 0.027429638 -1.0
+endaction
+
+action move_south
+	S14 S13 1.0 -1.0
+	S11 S7 0.97257036 -1.0
+	S26 S21 0.97257036 -1.0
+	S0 S13 1.0 -1.0
+	S24 S29 0.027429638 -1.0
+	S8 S13 0.027429638 -1.0
+	S2 S13 1.0 -1.0
+	S30 S29 1.0 -1.0
+	S60 S63 1.0 0.0
+	S47 S63 1.0 0.0
+	S18 S13 1.0 -1.0
+	S16 S13 1.0 -1.0
+	S15 S15 1.0 -1.0
+	S51 S63 1.0 0.0
+	S10 S13 0.027429638 -1.0
+	S32 S63 1.0 0.0
+	S40 S63 1.0 0.0
+	S46 S63 1.0 0.0
+	S12 S13 1.0 -1.0
+	S26 S29 0.027429638 -1.0
+	S59 S63 1.0 0.0
+	S27 S23 0.97257036 -1.0
+	S8 S5 0.97257036 -1.0
+	S19 S15 1.0 -1.0
+	S3 S15 1.0 -1.0
+	S42 S63 1.0 0.0
+	S44 S63 1.0 0.0
+	S34 S63 1.0 0.0
+	S28 S29 1.0 -1.0
+	S31 S31 1.0 -1.0
+	S11 S15 0.027429638 -1.0
+	S56 S63 1.0 0.0
+	S63 S63 1.0 0.0
+	S62 S63 1.0 0.0
+	S50 S63 1.0 0.0
+	S35 S63 1.0 0.0
+	S58 S63 1.0 0.0
+	S48 S63 1.0 0.0
+	S27 S31 0.027429638 -1.0
+	S43 S63 1.0 0.0
+	S24 S21 0.97257036 -1.0
+	S10 S5 0.97257036 -1.0
+endaction
+
+action move_west
+	S12 S7 0.97257036 -1.0
+	S20 S7 0.97257036 -1.0
+	S30 S31 0.027429638 -1.0
+	S13 S15 1.0 -1.0
+	S29 S15 1.0 -1.0
+	S36 S63 1.0 0.0
+	S18 S27 0.027429638 -1.0
+	S33 S63 1.0 0.0
+	S53 S63 1.0 0.0
+	S26 S19 0.97257036 -1.0
+	S54 S63 1.0 0.0
+	S1 S3 1.0 -1.0
+	S23 S23 1.0 -1.0
+	S12 S15 0.027429638 -1.0
+	S61 S63 1.0 0.0
+	S55 S63 1.0 0.0
+	S24 S11 0.027429638 -1.0
+	S0 S3 0.97257036 -1.0
+	S4 S7 0.97257036 -1.0
+	S17 S3 1.0 -1.0
+	S21 S7 1.0 -1.0
+	S60 S63 1.0 0.0
+	S4 S15 0.027429638 -1.0
+	S28 S15 0.027429638 -1.0
+	S57 S63 1.0 0.0
+	S52 S63 1.0 0.0
+	S9 S11 1.0 -1.0
+	S0 S11 0.027429638 -1.0
+	S24 S3 0.97257036 -1.0
+	S51 S63 1.0 0.0
+	S30 S23 0.97257036 -1.0
+	S45 S63 1.0 0.0
+	S16 S11 0.027429638 -1.0
+	S32 S63 1.0 0.0
+	S40 S63 1.0 0.0
+	S41 S63 1.0 0.0
+	S28 S7 0.97257036 -1.0
+	S59 S63 1.0 0.0
+	S26 S27 0.027429638 -1.0
+	S18 S19 0.97257036 -1.0
+	S25 S11 1.0 -1.0
+	S8 S3 0.97257036 -1.0
+	S44 S63 1.0 0.0
+	S20 S15 0.027429638 -1.0
+	S31 S31 1.0 -1.0
+	S56 S63 1.0 0.0
+	S63 S63 1.0 0.0
+	S22 S31 0.027429638 -1.0
+	S62 S63 1.0 0.0
+	S37 S63 1.0 0.0
+	S50 S63 1.0 0.0
+	S49 S63 1.0 0.0
+	S22 S23 0.97257036 -1.0
+	S58 S63 1.0 0.0
+	S16 S3 0.97257036 -1.0
+	S27 S27 1.0 -1.0
+	S48 S63 1.0 0.0
+	S19 S19 1.0 -1.0
+	S8 S11 0.027429638 -1.0
+	S5 S7 1.0 -1.0
+endaction
+
+action noop
+	S0 S0 1.0 -1.0
+	S3 S3 1.0 -1.0
+	S18 S18 1.0 -1.0
+	S14 S14 1.0 -1.0
+	S23 S23 1.0 -1.0
+	S61 S63 1.0 0.0
+	S55 S63 1.0 0.0
+	S2 S2 1.0 -1.0
+	S7 S7 1.0 -1.0
+	S47 S63 1.0 0.0
+	S22 S22 1.0 -1.0
+	S6 S6 1.0 -1.0
+	S57 S63 1.0 0.0
+	S24 S24 1.0 -1.0
+	S52 S63 1.0 0.0
+	S4 S4 1.0 -1.0
+	S10 S10 1.0 -1.0
+	S15 S15 1.0 -1.0
+	S28 S28 1.0 -1.0
+	S38 S63 1.0 0.0
+	S45 S63 1.0 0.0
+	S5 S5 1.0 -1.0
+	S32 S63 1.0 0.0
+	S46 S63 1.0 0.0
+	S30 S30 1.0 -1.0
+	S39 S63 1.0 0.0
+	S42 S63 1.0 0.0
+	S34 S63 1.0 0.0
+	S31 S31 1.0 -1.0
+	S56 S63 1.0 0.0
+	S62 S63 1.0 0.0
+	S37 S63 1.0 0.0
+	S20 S20 1.0 -1.0
+	S35 S63 1.0 0.0
+	S48 S63 1.0 0.0
+	S19 S19 1.0 -1.0
+	S21 S21 1.0 -1.0
+	S26 S26 1.0 -1.0
+	S1 S1 1.0 -1.0
+	S36 S63 1.0 0.0
+	S33 S63 1.0 0.0
+	S53 S63 1.0 0.0
+	S54 S63 1.0 0.0
+	S11 S11 1.0 -1.0
+	S8 S8 1.0 -1.0
+	S17 S17 1.0 -1.0
+	S12 S12 1.0 -1.0
+	S13 S13 1.0 -1.0
+	S29 S29 1.0 -1.0
+	S60 S63 1.0 0.0
+	S25 S25 1.0 -1.0
+	S51 S63 1.0 0.0
+	S40 S63 1.0 0.0
+	S41 S63 1.0 0.0
+	S16 S16 1.0 -1.0
+	S59 S63 1.0 0.0
+	S44 S63 1.0 0.0
+	S63 S63 1.0 0.0
+	S9 S9 1.0 -1.0
+	S50 S63 1.0 0.0
+	S49 S63 1.0 0.0
+	S58 S63 1.0 0.0
+	S27 S27 1.0 -1.0
+	S43 S63 1.0 0.0
+endaction
+
+discount factor 0.99
+maxiterations 10000

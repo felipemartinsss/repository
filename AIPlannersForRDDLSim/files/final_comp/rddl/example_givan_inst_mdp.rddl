@@ -1,0 +1,15 @@
+// Instância adaptada do artigo 'Model Minimization in MDPs' de Givan & Dean.
+
+instance example_givan_inst_mdp {
+	domain = example_givan_mdp;
+	
+	init-state {
+		~x1;
+		~x2;
+		~x3;
+	};
+	
+	max-nondef-actions = 1;
+	horizon = 40;
+	discount = 0.99;
+}

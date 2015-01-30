@@ -1,0 +1,15 @@
+// Inst�ncia adaptada do artigo 'Model Reduction Techniques for Computing Approximately Optimal Solutions for MDPs' de Givan & Dean.
+
+instance example_aprox_ext_givan_inst_mdp {
+	domain = example_aprox_ext_givan_mdp;
+	
+	init-state {
+		~x1;
+		~x2;
+		~x3;
+	};
+	
+	max-nondef-actions = 1;
+	horizon = 40;
+	discount = 0.99;
+}

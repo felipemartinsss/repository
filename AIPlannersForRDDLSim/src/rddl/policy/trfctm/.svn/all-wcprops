@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/168/trunk/src/rddl/policy/trfctm
+END
+TrfFixedTimePolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/168/trunk/src/rddl/policy/trfctm/TrfFixedTimePolicy.java
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/168/trunk/src/rddl/policy/trfctm/README.txt
+END
+TrfTestPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/168/trunk/src/rddl/policy/trfctm/TrfTestPolicy.java
+END
+TrfRandomPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/168/trunk/src/rddl/policy/trfctm/TrfRandomPolicy.java
+END

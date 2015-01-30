@@ -1,0 +1,26 @@
+non-fluents nf_small_domain_inst_mdp {
+	domain = small_domain_mdp;
+	
+	objects {
+		variavel : {v1,v2};
+	};
+	
+	non-fluents {
+		PROB_TRUE = 0.66;
+	};
+	
+}
+
+instance small_domain_inst_mdp {
+	domain = small_domain_mdp;
+	non-fluents = nf_small_domain_inst_mdp;
+	
+	init-state {
+		isTruth(v1);
+		isTruth(v2);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 0.99;
+}

@@ -1,0 +1,25 @@
+domain small_domain_mdp {
+  
+	requirements = { 
+		reward-deterministic
+	};
+	
+	types {
+  		variavel : object;
+	};
+      
+	pvariables { 
+		PROB_TRUE : { non-fluent, real, default = 0.66 };
+		isTruth(variavel) : { state-fluent, bool, default = false };
+		inversorAction : { action-fluent, bool, default = false };
+	};
+	
+	cpfs {
+  		isTruth'(?v) = if (isTruth(?v) ^ inversorAction) then KronDelta(false)
+  					   else if (~isTruth(?v) ^ inversorAction) then KronDelta(true)
+  					   else if (isTruth(?v)) then Bernoulli (0.66)
+  		 			   else Bernoulli (0.34);
+	};
+  
+	reward = sum_{?v : variavel} [isTruth(?v) + 0];
+}

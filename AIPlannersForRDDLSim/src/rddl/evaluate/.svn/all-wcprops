@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/160/trunk/src/rddl/evaluate
+END
+fix_xml.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/132/trunk/src/rddl/evaluate/fix_xml.sh
+END
+MinMaxEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/159/trunk/src/rddl/evaluate/MinMaxEval.java
+END
+FinalEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/160/trunk/src/rddl/evaluate/FinalEval.java
+END
+LogReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/132/trunk/src/rddl/evaluate/LogReader.java
+END
+Statistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/131/trunk/src/rddl/evaluate/Statistics.java
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/132/trunk/src/rddl/evaluate/README.txt
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/169/trunk/files/rddl/examples
+END
+package.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/151/trunk/files/rddl/examples/package.rddl
+END
+game_of_life_stoch.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/161/trunk/files/rddl/examples/game_of_life_stoch.rddl
+END
+traffic_binary_ctm_multivalue.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/151/trunk/files/rddl/examples/traffic_binary_ctm_multivalue.rddl
+END
+game_of_life_determ.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/151/trunk/files/rddl/examples/game_of_life_determ.rddl
+END
+pizza.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/151/trunk/files/rddl/examples/pizza.rddl
+END
+sysadmin_complex.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/151/trunk/files/rddl/examples/sysadmin_complex.rddl
+END
+logistics.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/151/trunk/files/rddl/examples/logistics.rddl
+END
+workforce.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/151/trunk/files/rddl/examples/workforce.rddl
+END
+dbn_po_ns.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/151/trunk/files/rddl/examples/dbn_po_ns.rddl
+END
+dbn_types_interm_po.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/151/trunk/files/rddl/examples/dbn_types_interm_po.rddl
+END
+dbn_prop.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/151/trunk/files/rddl/examples/dbn_prop.rddl
+END
+sidewalk.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/151/trunk/files/rddl/examples/sidewalk.rddl
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/152/trunk/files/rddl/examples/README.txt
+END
+simple_mars_rover.rddl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/151/trunk/files/rddl/examples/simple_mars_rover.rddl
+END

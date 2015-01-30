@@ -1,0 +1,33 @@
+// Domínio adaptado do problema de paciente com cardiopatia (representado como MDP fatorado).
+
+non-fluents nf_cardiopatia_inst_mdp {
+	domain = cardiopatia_mdp;
+	
+	objects {
+		sintoma : {sintoma1, sintoma2, sintoma3};
+		tratamento: {t};
+	};
+	
+	non-fluents {
+		CardiopatiaControladaSEC = 0;
+		CardiopatiaControladaCEC = -2;
+		AVC = -85;
+		Morte = -100;
+	};
+}
+
+instance cardiopatia_inst_mdp {
+	domain = cardiopatia_mdp;
+	
+	non-fluents = nf_cardiopatia_inst_mdp;
+	
+	init-state {
+		~apresenta (sintoma1);
+		~apresenta (sintoma2);
+		~apresenta (sintoma3);
+	};
+	
+	max-nondef-actions = 1;
+	horizon = 40;
+	discount = 0.99;
+}

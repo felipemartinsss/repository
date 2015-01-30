@@ -1,0 +1,18 @@
+digraph G { 
+graph [ fontname = "Helvetica",fontsize="16",ratio = "auto",
+        size="7.5,10",rankdir="LR",ranksep="2.00" ];
+node [fontsize="16"];
+"f" [];
+"d" [];
+"e" [];
+"b" [];
+"c" [];
+"a" [];
+"b" -> "e" ;
+"b" -> "c" ;
+"a" -> "f" ;
+"a" -> "d" ;
+"a" -> "b" ;
+"a" -> "c" ;
+{ rank=same; "f"; "e"; "c"; };
+}

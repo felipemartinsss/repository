@@ -1,0 +1,242 @@
+statevars
+	hintedRight__s0 proficiencyHigh__s0 updateTurn__s0 answeredRight__s0 proficiencyMed__s0 hintDelayVar__s0 
+endstatevars
+
+states
+	S10, S11, S40, S14, S15, S12, S13, S18, S2, S19, S1, S16, S0, S17, S49, S48, S47, S46, S45, S44, S43, S42, S41, S50, S51, S57, S56, S59, S58, S53, S52, S55, S54, S36, S37, S34, S35, S61, S32, S62, S33, S30, S60, S31, S38, S39, S63, S23, S24, S25, S26, S20, S21, S22, S27, S28, S29, S3, S4, S5, S6, S7, S8, S9
+endstates
+
+statedescription
+	S42 [false, false, true, false, true, true]
+	S21 [true, true, false, true, true, false]
+	S58 [false, false, true, false, false, true]
+	S20 [true, true, false, true, true, true]
+	S18 [true, true, true, false, true, true]
+	S27 [false, true, true, false, true, false]
+	S19 [true, true, true, false, true, false]
+	S53 [true, false, false, true, false, false]
+	S52 [true, false, false, true, false, true]
+	S37 [true, false, false, true, true, false]
+	S43 [false, false, true, false, true, false]
+	S60 [false, false, false, true, false, true]
+	S51 [true, false, true, false, false, false]
+	S55 [true, false, false, false, false, false]
+	S33 [true, false, true, true, true, false]
+	S61 [false, false, false, true, false, false]
+	S32 [true, false, true, true, true, true]
+	S50 [true, false, true, false, false, true]
+	S30 [false, true, false, false, true, true]
+	S10 [false, true, true, false, false, true]
+	S22 [true, true, false, false, true, true]
+	S31 [false, true, false, false, true, false]
+	S11 [false, true, true, false, false, false]
+	S12 [false, true, false, true, false, true]
+	S48 [true, false, true, true, false, true]
+	S8 [false, true, true, true, false, true]
+	S40 [false, false, true, true, true, true]
+	S9 [false, true, true, true, false, false]
+	S2 [true, true, true, false, false, true]
+	S13 [false, true, false, true, false, false]
+	S16 [true, true, true, true, true, true]
+	S38 [true, false, false, false, true, true]
+	S35 [true, false, true, false, true, false]
+	S3 [true, true, true, false, false, false]
+	S17 [true, true, true, true, true, false]
+	S39 [true, false, false, false, true, false]
+	S4 [true, true, false, true, false, true]
+	S46 [false, false, false, false, true, true]
+	S5 [true, true, false, true, false, false]
+	S23 [true, true, false, false, true, false]
+	S41 [false, false, true, true, true, false]
+	S49 [true, false, true, true, false, false]
+	S34 [true, false, true, false, true, true]
+	S47 [false, false, false, false, true, false]
+	S24 [false, true, true, true, true, true]
+	S25 [false, true, true, true, true, false]
+	S29 [false, true, false, true, true, false]
+	S44 [false, false, false, true, true, true]
+	S62 [false, false, false, false, false, true]
+	S1 [true, true, true, true, false, false]
+	S7 [true, true, false, false, false, false]
+	S57 [false, false, true, true, false, false]
+	S56 [false, false, true, true, false, true]
+	S28 [false, true, false, true, true, true]
+	S45 [false, false, false, true, true, false]
+	S63 [false, false, false, false, false, false]
+	S0 [true, true, true, true, false, true]
+	S6 [true, true, false, false, false, true]
+	S36 [true, false, false, true, true, true]
+	S59 [false, false, true, false, false, false]
+	S15 [false, true, false, false, false, false]
+	S54 [true, false, false, false, false, true]
+	S26 [false, true, true, false, true, true]
+	S14 [false, true, false, false, false, true]
+endstatedescription
+
+action askProb__s0
+	S52 S57 0.5 -1.1422805
+	S28 S25 0.93694526 1.1422805
+	S16 S31 1.0 1.1422805
+	S20 S27 0.06305474 1.1422805
+	S24 S31 1.0 1.1422805
+	S32 S31 1.0 0.0
+	S42 S47 1.0 0.0
+	S36 S41 0.6980462 0.0
+	S36 S43 0.3019538 0.0
+	S18 S31 1.0 1.1422805
+	S43 S63 1.0 0.0
+	S34 S47 1.0 0.0
+	S20 S25 0.93694526 1.1422805
+	S26 S31 1.0 1.1422805
+	S19 S47 1.0 1.1422805
+	S40 S31 1.0 0.0
+	S56 S47 1.0 -1.1422805
+	S27 S47 1.0 1.1422805
+	S48 S47 1.0 -1.1422805
+	S28 S27 0.06305474 1.1422805
+	S58 S63 1.0 -1.1422805
+	S59 S63 1.0 -1.1422805
+	S44 S41 0.6980462 0.0
+	S45 S41 0.6980462 0.0
+	S46 S41 0.6980462 0.0
+	S47 S41 0.6980462 0.0
+	S44 S41 0.6980462 0.0
+	S46 S41 0.6980462 0.0
+	S45 S41 0.6980462 0.0
+	S47 S41 0.6980462 0.0
+	S44 S43 0.3019538 0.0
+	S45 S43 0.3019538 0.0
+	S46 S43 0.3019538 0.0
+	S47 S43 0.3019538 0.0
+	S44 S43 0.3019538 0.0
+	S46 S43 0.3019538 0.0
+	S45 S43 0.3019538 0.0
+	S47 S43 0.3019538 0.0
+	S60 S57 0.5 -1.1422805
+	S60 S59 0.5 -1.1422805
+	S61 S57 0.5 -1.1422805
+	S61 S59 0.5 -1.1422805
+	S60 S57 0.5 -1.1422805
+	S61 S57 0.5 -1.1422805
+	S60 S59 0.5 -1.1422805
+	S61 S59 0.5 -1.1422805
+	S62 S57 0.5 -1.1422805
+	S62 S59 0.5 -1.1422805
+	S63 S57 0.5 -1.1422805
+	S63 S59 0.5 -1.1422805
+	S62 S57 0.5 -1.1422805
+	S63 S57 0.5 -1.1422805
+	S62 S59 0.5 -1.1422805
+	S63 S59 0.5 -1.1422805
+	S60 S57 0.5 -1.1422805
+	S60 S59 0.5 -1.1422805
+	S62 S57 0.5 -1.1422805
+	S62 S59 0.5 -1.1422805
+	S60 S57 0.5 -1.1422805
+	S62 S57 0.5 -1.1422805
+	S60 S59 0.5 -1.1422805
+	S62 S59 0.5 -1.1422805
+	S61 S57 0.5 -1.1422805
+	S61 S59 0.5 -1.1422805
+	S63 S57 0.5 -1.1422805
+	S63 S59 0.5 -1.1422805
+	S61 S57 0.5 -1.1422805
+	S63 S57 0.5 -1.1422805
+	S61 S59 0.5 -1.1422805
+	S63 S59 0.5 -1.1422805
+	S60 S57 0.5 -1.1422805
+	S61 S57 0.5 -1.1422805
+	S62 S57 0.5 -1.1422805
+	S63 S57 0.5 -1.1422805
+	S60 S57 0.5 -1.1422805
+	S62 S57 0.5 -1.1422805
+	S61 S57 0.5 -1.1422805
+	S63 S57 0.5 -1.1422805
+	S60 S59 0.5 -1.1422805
+	S61 S59 0.5 -1.1422805
+	S62 S59 0.5 -1.1422805
+	S63 S59 0.5 -1.1422805
+	S60 S59 0.5 -1.1422805
+	S62 S59 0.5 -1.1422805
+	S61 S59 0.5 -1.1422805
+	S63 S59 0.5 -1.1422805
+endaction
+
+action giveHint__s0
+	S16 S31 1.0 1.1422805
+	S28 S18 1.0 1.1422805
+	S24 S31 1.0 1.1422805
+	S32 S31 1.0 0.0
+	S42 S47 1.0 0.0
+	S18 S31 1.0 1.1422805
+	S43 S63 1.0 0.0
+	S34 S47 1.0 0.0
+	S20 S18 1.0 1.1422805
+	S26 S31 1.0 1.1422805
+	S19 S47 1.0 1.1422805
+	S40 S31 1.0 0.0
+	S56 S47 1.0 -1.1422805
+	S36 S34 1.0 0.0
+	S52 S50 1.0 -1.1422805
+	S27 S47 1.0 1.1422805
+	S48 S47 1.0 -1.1422805
+	S58 S63 1.0 -1.1422805
+	S59 S63 1.0 -1.1422805
+	S60 S50 1.0 -1.1422805
+	S61 S50 1.0 -1.1422805
+	S62 S50 1.0 -1.1422805
+	S63 S50 1.0 -1.1422805
+	S60 S50 1.0 -1.1422805
+	S62 S50 1.0 -1.1422805
+	S61 S50 1.0 -1.1422805
+	S63 S50 1.0 -1.1422805
+	S44 S34 1.0 0.0
+	S45 S34 1.0 0.0
+	S46 S34 1.0 0.0
+	S47 S34 1.0 0.0
+	S44 S34 1.0 0.0
+	S46 S34 1.0 0.0
+	S45 S34 1.0 0.0
+	S47 S34 1.0 0.0
+endaction
+
+action noop
+	S16 S31 1.0 1.1422805
+	S20 S31 1.0 1.1422805
+	S52 S63 1.0 -1.1422805
+	S24 S31 1.0 1.1422805
+	S32 S31 1.0 0.0
+	S42 S47 1.0 0.0
+	S18 S31 1.0 1.1422805
+	S43 S63 1.0 0.0
+	S34 S47 1.0 0.0
+	S36 S47 1.0 0.0
+	S26 S31 1.0 1.1422805
+	S28 S31 1.0 1.1422805
+	S19 S47 1.0 1.1422805
+	S40 S31 1.0 0.0
+	S56 S47 1.0 -1.1422805
+	S27 S47 1.0 1.1422805
+	S48 S47 1.0 -1.1422805
+	S58 S63 1.0 -1.1422805
+	S59 S63 1.0 -1.1422805
+	S44 S47 1.0 0.0
+	S45 S47 1.0 0.0
+	S46 S47 1.0 0.0
+	S47 S47 1.0 0.0
+	S44 S47 1.0 0.0
+	S46 S47 1.0 0.0
+	S45 S47 1.0 0.0
+	S47 S47 1.0 0.0
+	S60 S63 1.0 -1.1422805
+	S61 S63 1.0 -1.1422805
+	S62 S63 1.0 -1.1422805
+	S63 S63 1.0 -1.1422805
+	S60 S63 1.0 -1.1422805
+	S62 S63 1.0 -1.1422805
+	S61 S63 1.0 -1.1422805
+	S63 S63 1.0 -1.1422805
+endaction
+
+discount factor 0.99
+maxiterations 10000

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/183/trunk/src/rddl/solver/mdp/rtdp
+END
+sBRTDP_MaxVar_Hplus_Texp_Prune.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/183/trunk/src/rddl/solver/mdp/rtdp/sBRTDP_MaxVar_Hplus_Texp_Prune.java
+END
+sBRTDP_Max.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/178/trunk/src/rddl/solver/mdp/rtdp/sBRTDP_Max.java
+END
+sBRTDP_MaxVar_Hplus_Texp.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/178/trunk/src/rddl/solver/mdp/rtdp/sBRTDP_MaxVar_Hplus_Texp.java
+END
+RTDP.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/175/trunk/src/rddl/solver/mdp/rtdp/RTDP.java
+END
+RTDP1.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/175/trunk/src/rddl/solver/mdp/rtdp/RTDP1.java
+END
+sBRTDP_MaxVar_Hplus_Texp_Prune_Sampling.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/183/trunk/src/rddl/solver/mdp/rtdp/sBRTDP_MaxVar_Hplus_Texp_Prune_Sampling.java
+END
+sBRTDP_Avg.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/178/trunk/src/rddl/solver/mdp/rtdp/sBRTDP_Avg.java
+END
+sBRTDP_MaxVar.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/178/trunk/src/rddl/solver/mdp/rtdp/sBRTDP_MaxVar.java
+END
+sBRTDP_DistinctAvg.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/178/trunk/src/rddl/solver/mdp/rtdp/sBRTDP_DistinctAvg.java
+END
+sBRTDP.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/178/trunk/src/rddl/solver/mdp/rtdp/sBRTDP.java
+END

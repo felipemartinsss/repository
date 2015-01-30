@@ -1,0 +1,1538 @@
+statevars
+	robot_at__x1_y1 robot_at__x1_y2 robot_at__x1_y3 robot_at__x1_y4 robot_at__x2_y1 robot_at__x2_y2 robot_at__x2_y3 robot_at__x2_y4 
+endstatevars
+
+states
+	S10, S11, S139, S14, S138, S15, S137, S12, S136, S13, S135, S18, S19, S16, S17, S144, S145, S142, S143, S140, S141, S129, S128, S125, S124, S127, S126, S131, S132, S133, S134, S130, S36, S37, S159, S34, S158, S35, S157, S32, S33, S30, S31, S38, S39, S162, S163, S160, S161, S166, S167, S164, S165, S23, S147, S24, S146, S25, S149, S26, S148, S20, S21, S22, S249, S246, S27, S245, S28, S248, S29, S247, S252, S253, S254, S255, S250, S251, S150, S151, S152, S153, S154, S155, S156, S2, S1, S0, S179, S189, S188, S187, S186, S185, S184, S183, S182, S181, S180, S168, S169, S176, S175, S178, S177, S172, S171, S174, S173, S170, S194, S3, S193, S4, S196, S5, S195, S6, S198, S7, S197, S8, S9, S199, S190, S192, S191, S200, S84, S83, S82, S81, S80, S89, S87, S88, S85, S86, S93, S92, S95, S94, S91, S90, S96, S97, S98, S99, S40, S101, S100, S240, S242, S241, S244, S243, S234, S235, S236, S237, S238, S239, S49, S48, S47, S46, S45, S44, S43, S42, S41, S50, S51, S233, S232, S231, S230, S225, S226, S223, S224, S229, S227, S228, S57, S56, S59, S58, S53, S52, S55, S54, S61, S121, S62, S120, S123, S60, S122, S220, S222, S221, S216, S217, S218, S219, S212, S213, S214, S215, S66, S113, S65, S114, S64, S115, S63, S116, S117, S69, S118, S68, S119, S67, S70, S112, S71, S111, S72, S110, S73, S211, S210, S207, S208, S205, S206, S203, S204, S201, S202, S75, S104, S74, S105, S77, S102, S76, S103, S79, S108, S78, S109, S209, S106, S107
+endstates
+
+statedescription
+	S241 [false, false, false, true, true, true, false, false]
+	S209 [false, true, false, true, true, true, false, false]
+	S177 [true, false, false, true, true, true, false, false]
+	S49 [true, false, false, true, true, true, false, true]
+	S163 [true, false, true, true, true, false, false, false]
+	S215 [false, true, false, true, false, false, false, false]
+	S88 [false, true, false, false, true, true, true, true]
+	S3 [true, true, true, true, true, false, false, true]
+	S113 [false, false, false, true, true, true, false, true]
+	S219 [false, true, false, false, true, false, false, false]
+	S35 [true, false, true, true, true, false, false, true]
+	S109 [false, false, true, false, false, true, false, true]
+	S237 [false, false, true, false, false, true, false, false]
+	S91 [false, true, false, false, true, false, false, true]
+	S216 [false, true, false, false, true, true, true, false]
+	S194 [false, true, true, true, true, false, true, false]
+	S153 [true, true, false, false, true, true, false, false]
+	S0 [true, true, true, true, true, true, true, true]
+	S62 [true, false, false, false, false, false, true, true]
+	S25 [true, true, false, false, true, true, false, true]
+	S87 [false, true, false, true, false, false, false, true]
+	S123 [false, false, false, false, true, false, false, true]
+	S190 [true, false, false, false, false, false, true, false]
+	S81 [false, true, false, true, true, true, false, true]
+	S31 [true, true, false, false, false, false, false, true]
+	S251 [false, false, false, false, true, false, false, false]
+	S199 [false, true, true, true, false, false, false, false]
+	S159 [true, true, false, false, false, false, false, false]
+	S128 [true, true, true, true, true, true, true, false]
+	S66 [false, true, true, true, true, false, true, true]
+	S71 [false, true, true, true, false, false, false, true]
+	S131 [true, true, true, true, true, false, false, false]
+	S210 [false, true, false, true, true, false, true, false]
+	S13 [true, true, true, false, false, true, false, true]
+	S82 [false, true, false, true, true, false, true, true]
+	S141 [true, true, true, false, false, true, false, false]
+	S192 [false, true, true, true, true, true, true, false]
+	S245 [false, false, false, true, false, true, false, false]
+	S64 [false, true, true, true, true, true, true, true]
+	S45 [true, false, true, false, false, true, false, true]
+	S202 [false, true, true, false, true, false, true, false]
+	S200 [false, true, true, false, true, true, true, false]
+	S5 [true, true, true, true, false, true, false, true]
+	S23 [true, true, false, true, false, false, false, true]
+	S85 [false, true, false, true, false, true, false, true]
+	S229 [false, false, true, true, false, true, false, false]
+	S133 [true, true, true, true, false, true, false, false]
+	S117 [false, false, false, true, false, true, false, true]
+	S74 [false, true, true, false, true, false, true, true]
+	S101 [false, false, true, true, false, true, false, true]
+	S151 [true, true, false, true, false, false, false, false]
+	S213 [false, true, false, true, false, true, false, false]
+	S52 [true, false, false, true, false, true, true, true]
+	S160 [true, false, true, true, true, true, true, false]
+	S180 [true, false, false, true, false, true, true, false]
+	S72 [false, true, true, false, true, true, true, true]
+	S32 [true, false, true, true, true, true, true, true]
+	S7 [true, true, true, true, false, false, false, true]
+	S173 [true, false, true, false, false, true, false, false]
+	S135 [true, true, true, true, false, false, false, false]
+	S68 [false, true, true, true, false, true, true, true]
+	S196 [false, true, true, true, false, true, true, false]
+	S174 [true, false, true, false, false, false, true, false]
+	S221 [false, true, false, false, false, true, false, false]
+	S140 [true, true, true, false, false, true, true, false]
+	S143 [true, true, true, false, false, false, false, false]
+	S225 [false, false, true, true, true, true, false, false]
+	S22 [true, true, false, true, false, false, true, true]
+	S145 [true, true, false, true, true, true, false, false]
+	S154 [true, true, false, false, true, false, true, false]
+	S97 [false, false, true, true, true, true, false, true]
+	S150 [true, true, false, true, false, false, true, false]
+	S93 [false, true, false, false, false, true, false, true]
+	S17 [true, true, false, true, true, true, false, true]
+	S46 [true, false, true, false, false, false, true, true]
+	S33 [true, false, true, true, true, true, false, true]
+	S185 [true, false, false, false, true, true, false, false]
+	S54 [true, false, false, true, false, false, true, true]
+	S26 [true, true, false, false, true, false, true, true]
+	S104 [false, false, true, false, true, true, true, true]
+	S57 [true, false, false, false, true, true, false, true]
+	S147 [true, true, false, true, true, false, false, false]
+	S161 [true, false, true, true, true, true, false, false]
+	S69 [false, true, true, true, false, true, false, true]
+	S19 [true, true, false, true, true, false, false, true]
+	S182 [true, false, false, true, false, false, true, false]
+	S53 [true, false, false, true, false, true, false, true]
+	S15 [true, true, true, false, false, false, false, true]
+	S124 [false, false, false, false, false, true, true, true]
+	S252 [false, false, false, false, false, true, true, false]
+	S181 [true, false, false, true, false, true, false, false]
+	S232 [false, false, true, false, true, true, true, false]
+	S12 [true, true, true, false, false, true, true, true]
+	S197 [false, true, true, true, false, true, false, false]
+	S165 [true, false, true, true, false, true, false, false]
+	S37 [true, false, true, true, false, true, false, true]
+	S156 [true, true, false, false, false, true, true, false]
+	S94 [false, true, false, false, false, false, true, true]
+	S242 [false, false, false, true, true, false, true, false]
+	S222 [false, true, false, false, false, false, true, false]
+	S90 [false, true, false, false, true, false, true, true]
+	S28 [true, true, false, false, false, true, true, true]
+	S166 [true, false, true, true, false, false, true, false]
+	S38 [true, false, true, true, false, false, true, true]
+	S240 [false, false, false, true, true, true, true, false]
+	S112 [false, false, false, true, true, true, true, true]
+	S155 [true, true, false, false, true, false, false, false]
+	S158 [true, true, false, false, false, false, true, false]
+	S51 [true, false, false, true, true, false, false, true]
+	S20 [true, true, false, true, false, true, true, true]
+	S9 [true, true, true, false, true, true, false, true]
+	S148 [true, true, false, true, false, true, true, false]
+	S137 [true, true, true, false, true, true, false, false]
+	S235 [false, false, true, false, true, false, false, false]
+	S58 [true, false, false, false, true, false, true, true]
+	S27 [true, true, false, false, true, false, false, true]
+	S30 [true, true, false, false, false, false, true, true]
+	S107 [false, false, true, false, true, false, false, true]
+	S127 [false, false, false, false, false, false, false, true]
+	S255 [false, false, false, false, false, false, false, false]
+	S179 [true, false, false, true, true, false, false, false]
+	S211 [false, true, false, true, true, false, false, false]
+	S130 [true, true, true, true, true, false, true, false]
+	S118 [false, false, false, true, false, false, true, true]
+	S79 [false, true, true, false, false, false, false, true]
+	S83 [false, true, false, true, true, false, false, true]
+	S2 [true, true, true, true, true, false, true, true]
+	S114 [false, false, false, true, true, false, true, true]
+	S186 [true, false, false, false, true, false, true, false]
+	S246 [false, false, false, true, false, false, true, false]
+	S218 [false, true, false, false, true, false, true, false]
+	S207 [false, true, true, false, false, false, false, false]
+	S170 [true, false, true, false, true, false, true, false]
+	S171 [true, false, true, false, true, false, false, false]
+	S6 [true, true, true, true, false, false, true, true]
+	S42 [true, false, true, false, true, false, true, true]
+	S188 [true, false, false, false, false, true, true, false]
+	S132 [true, true, true, true, false, true, true, false]
+	S149 [true, true, false, true, false, true, false, false]
+	S102 [false, false, true, true, false, false, true, true]
+	S4 [true, true, true, true, false, true, true, true]
+	S21 [true, true, false, true, false, true, false, true]
+	S75 [false, true, true, false, true, false, false, true]
+	S136 [true, true, true, false, true, true, true, false]
+	S8 [true, true, true, false, true, true, true, true]
+	S43 [true, false, true, false, true, false, false, true]
+	S203 [false, true, true, false, true, false, false, false]
+	S60 [true, false, false, false, false, true, true, true]
+	S238 [false, false, true, false, false, false, true, false]
+	S230 [false, false, true, true, false, false, true, false]
+	S193 [false, true, true, true, true, true, false, false]
+	S73 [false, true, true, false, true, true, false, true]
+	S201 [false, true, true, false, true, true, false, false]
+	S65 [false, true, true, true, true, true, false, true]
+	S110 [false, false, true, false, false, false, true, true]
+	S134 [true, true, true, true, false, false, true, false]
+	S172 [true, false, true, false, false, true, true, false]
+	S183 [true, false, false, true, false, false, false, false]
+	S55 [true, false, false, true, false, false, false, true]
+	S48 [true, false, false, true, true, true, true, true]
+	S115 [false, false, false, true, true, false, false, true]
+	S78 [false, true, true, false, false, false, true, true]
+	S44 [true, false, true, false, false, true, true, true]
+	S243 [false, false, false, true, true, false, false, false]
+	S86 [false, true, false, true, false, false, true, true]
+	S227 [false, false, true, true, true, false, false, false]
+	S152 [true, true, false, false, true, true, true, false]
+	S214 [false, true, false, true, false, false, true, false]
+	S24 [true, true, false, false, true, true, true, true]
+	S99 [false, false, true, true, true, false, false, true]
+	S40 [true, false, true, false, true, true, true, true]
+	S95 [false, true, false, false, false, false, false, true]
+	S138 [true, true, true, false, true, false, true, false]
+	S84 [false, true, false, true, false, true, true, true]
+	S223 [false, true, false, false, false, false, false, false]
+	S121 [false, false, false, false, true, true, false, true]
+	S206 [false, true, true, false, false, false, true, false]
+	S157 [true, true, false, false, false, true, false, false]
+	S249 [false, false, false, false, true, true, false, false]
+	S212 [false, true, false, true, false, true, true, false]
+	S168 [true, false, true, false, true, true, true, false]
+	S204 [false, true, true, false, false, true, true, false]
+	S67 [false, true, true, true, true, false, false, true]
+	S195 [false, true, true, true, true, false, false, false]
+	S76 [false, true, true, false, false, true, true, true]
+	S176 [true, false, false, true, true, true, true, false]
+	S10 [true, true, true, false, true, false, true, true]
+	S29 [true, true, false, false, false, true, false, true]
+	S119 [false, false, false, true, false, false, false, true]
+	S254 [false, false, false, false, false, false, true, false]
+	S248 [false, false, false, false, true, true, true, false]
+	S247 [false, false, false, true, false, false, false, false]
+	S167 [true, false, true, true, false, false, false, false]
+	S41 [true, false, true, false, true, true, false, true]
+	S39 [true, false, true, true, false, false, false, true]
+	S234 [false, false, true, false, true, false, true, false]
+	S169 [true, false, true, false, true, true, false, false]
+	S205 [false, true, true, false, false, true, false, false]
+	S106 [false, false, true, false, true, false, true, true]
+	S139 [true, true, true, false, true, false, false, false]
+	S178 [true, false, false, true, true, false, true, false]
+	S77 [false, true, true, false, false, true, false, true]
+	S120 [false, false, false, false, true, true, true, true]
+	S126 [false, false, false, false, false, false, true, true]
+	S50 [true, false, false, true, true, false, true, true]
+	S11 [true, true, true, false, true, false, false, true]
+	S162 [true, false, true, true, true, false, true, false]
+	S231 [false, false, true, true, false, false, false, false]
+	S144 [true, true, false, true, true, true, true, false]
+	S184 [true, false, false, false, true, true, true, false]
+	S16 [true, true, false, true, true, true, true, true]
+	S103 [false, false, true, true, false, false, false, true]
+	S14 [true, true, true, false, false, false, true, true]
+	S142 [true, true, true, false, false, false, true, false]
+	S111 [false, false, true, false, false, false, false, true]
+	S1 [true, true, true, true, true, true, false, true]
+	S129 [true, true, true, true, true, true, false, false]
+	S56 [true, false, false, false, true, true, true, true]
+	S146 [true, true, false, true, true, false, true, false]
+	S105 [false, false, true, false, true, true, false, true]
+	S92 [false, true, false, false, false, true, true, true]
+	S59 [true, false, false, false, true, false, false, true]
+	S98 [false, false, true, true, true, false, true, true]
+	S108 [false, false, true, false, false, true, true, true]
+	S164 [true, false, true, true, false, true, true, false]
+	S63 [true, false, false, false, false, false, false, true]
+	S217 [false, true, false, false, true, true, false, false]
+	S224 [false, false, true, true, true, true, true, false]
+	S34 [true, false, true, true, true, false, true, true]
+	S220 [false, true, false, false, false, true, true, false]
+	S226 [false, false, true, true, true, false, true, false]
+	S187 [true, false, false, false, true, false, false, false]
+	S89 [false, true, false, false, true, true, false, true]
+	S96 [false, false, true, true, true, true, true, true]
+	S228 [false, false, true, true, false, true, true, false]
+	S244 [false, false, false, true, false, true, true, false]
+	S100 [false, false, true, true, false, true, true, true]
+	S47 [true, false, true, false, false, false, false, true]
+	S175 [true, false, true, false, false, false, false, false]
+	S236 [false, false, true, false, false, true, true, false]
+	S36 [true, false, true, true, false, true, true, true]
+	S116 [false, false, false, true, false, true, true, true]
+	S191 [true, false, false, false, false, false, false, false]
+	S239 [false, false, true, false, false, false, false, false]
+	S208 [false, true, false, true, true, true, true, false]
+	S250 [false, false, false, false, true, false, true, false]
+	S18 [true, true, false, true, true, false, true, true]
+	S233 [false, false, true, false, true, true, false, false]
+	S125 [false, false, false, false, false, true, false, true]
+	S80 [false, true, false, true, true, true, true, true]
+	S70 [false, true, true, true, false, false, true, true]
+	S61 [true, false, false, false, false, true, false, true]
+	S253 [false, false, false, false, false, true, false, false]
+	S198 [false, true, true, true, false, false, true, false]
+	S122 [false, false, false, false, true, false, true, true]
+	S189 [true, false, false, false, false, true, false, false]
+endstatedescription
+
+action move_east
+	S84 S127 1.0 0.0
+	S76 S127 1.0 0.0
+	S204 S252 0.0037982524 -1.0
+	S209 S121 0.047869287 -1.0
+	S110 S127 1.0 0.0
+	S212 S124 0.047869287 -1.0
+	S145 S123 0.95213073 -1.0
+	S117 S127 1.0 0.0
+	S136 S248 0.0037982524 -1.0
+	S136 S250 0.075548075 -1.0
+	S236 S252 0.07934633 -1.0
+	S253 S253 1.0 -1.0
+	S113 S127 1.0 0.0
+	S216 S250 0.95213073 -1.0
+	S81 S127 1.0 0.0
+	S196 S124 0.0037982524 -1.0
+	S136 S251 0.8765826 -1.0
+	S192 S122 0.075548075 -1.0
+	S238 S255 0.9206537 -1.0
+	S176 S120 1.0 -1.0
+	S51 S127 1.0 0.0
+	S217 S249 0.047869287 -1.0
+	S196 S126 0.075548075 -1.0
+	S192 S121 0.044071037 -1.0
+	S127 S127 1.0 0.0
+	S34 S127 1.0 0.0
+	S0 S127 1.0 0.0
+	S243 S123 1.0 -1.0
+	S236 S253 0.9206537 -1.0
+	S152 S248 0.047869287 -1.0
+	S204 S254 0.075548075 -1.0
+	S102 S127 1.0 0.0
+	S196 S127 0.8765826 -1.0
+	S89 S127 1.0 0.0
+	S108 S127 1.0 0.0
+	S224 S120 0.07934633 -1.0
+	S192 S123 0.8765826 -1.0
+	S85 S127 1.0 0.0
+	S196 S125 0.044071037 -1.0
+	S213 S125 0.047869287 -1.0
+	S128 S123 0.8765826 -1.0
+	S119 S127 1.0 0.0
+	S114 S127 1.0 0.0
+	S50 S127 1.0 0.0
+	S228 S125 0.9206537 -1.0
+	S184 S248 1.0 -1.0
+	S234 S251 0.9206537 -1.0
+	S160 S121 0.9206537 -1.0
+	S128 S121 0.044071037 -1.0
+	S124 S127 1.0 0.0
+	S160 S120 0.07934633 -1.0
+	S128 S122 0.075548075 -1.0
+	S217 S251 0.95213073 -1.0
+	S178 S122 1.0 -1.0
+	S25 S127 1.0 0.0
+	S88 S127 1.0 0.0
+	S224 S121 0.9206537 -1.0
+	S64 S127 1.0 0.0
+	S208 S122 0.95213073 -1.0
+	S145 S121 0.047869287 -1.0
+	S16 S127 1.0 0.0
+	S32 S127 1.0 0.0
+	S144 S120 0.047869287 -1.0
+	S204 S253 0.044071037 -1.0
+	S115 S127 1.0 0.0
+	S128 S120 0.0037982524 -1.0
+	S126 S127 1.0 0.0
+	S153 S249 0.047869287 -1.0
+	S220 S252 0.047869287 -1.0
+	S238 S254 0.07934633 -1.0
+	S246 S126 1.0 -1.0
+	S187 S251 1.0 -1.0
+	S248 S248 1.0 -1.0
+	S216 S248 0.047869287 -1.0
+	S244 S124 1.0 -1.0
+	S92 S127 1.0 0.0
+	S230 S126 0.07934633 -1.0
+	S220 S254 0.95213073 -1.0
+	S240 S120 1.0 -1.0
+	S56 S127 1.0 0.0
+	S179 S123 1.0 -1.0
+	S221 S253 0.047869287 -1.0
+	S208 S120 0.047869287 -1.0
+	S68 S127 1.0 0.0
+	S185 S249 1.0 -1.0
+	S221 S255 0.95213073 -1.0
+	S116 S127 1.0 0.0
+	S48 S127 1.0 0.0
+	S200 S251 0.8765826 -1.0
+	S152 S250 0.95213073 -1.0
+	S242 S122 1.0 -1.0
+	S254 S254 1.0 -1.0
+	S98 S127 1.0 0.0
+	S251 S251 1.0 -1.0
+	S230 S127 0.9206537 -1.0
+	S234 S250 0.07934633 -1.0
+	S123 S127 1.0 0.0
+	S209 S123 0.95213073 -1.0
+	S144 S122 0.95213073 -1.0
+	S72 S127 1.0 0.0
+	S228 S124 0.07934633 -1.0
+	S153 S251 0.95213073 -1.0
+	S24 S127 1.0 0.0
+	S57 S127 1.0 0.0
+	S200 S248 0.0037982524 -1.0
+	S232 S248 0.07934633 -1.0
+	S226 S122 0.07934633 -1.0
+	S192 S120 0.0037982524 -1.0
+	S121 S127 1.0 0.0
+	S200 S250 0.075548075 -1.0
+	S42 S127 1.0 0.0
+	S241 S121 1.0 -1.0
+	S204 S255 0.8765826 -1.0
+	S112 S127 1.0 0.0
+	S58 S127 1.0 0.0
+	S59 S127 1.0 0.0
+	S96 S127 1.0 0.0
+	S8 S127 1.0 0.0
+	S118 S127 1.0 0.0
+	S252 S252 1.0 -1.0
+	S104 S127 1.0 0.0
+	S122 S127 1.0 0.0
+	S100 S127 1.0 0.0
+	S170 S250 0.07934633 -1.0
+	S186 S250 1.0 -1.0
+	S212 S126 0.95213073 -1.0
+	S120 S127 1.0 0.0
+	S17 S127 1.0 0.0
+	S93 S127 1.0 0.0
+	S213 S127 0.95213073 -1.0
+	S125 S127 1.0 0.0
+	S106 S127 1.0 0.0
+	S168 S249 0.9206537 -1.0
+	S250 S250 1.0 -1.0
+	S200 S249 0.044071037 -1.0
+	S245 S125 1.0 -1.0
+	S226 S123 0.9206537 -1.0
+	S162 S123 0.9206537 -1.0
+	S40 S127 1.0 0.0
+	S232 S249 0.9206537 -1.0
+	S168 S248 0.07934633 -1.0
+	S49 S127 1.0 0.0
+	S249 S249 1.0 -1.0
+	S162 S122 0.07934633 -1.0
+	S170 S251 0.9206537 -1.0
+	S255 S255 1.0 -1.0
+	S80 S127 1.0 0.0
+	S136 S249 0.044071037 -1.0
+	S177 S121 1.0 -1.0
+endaction
+
+action move_north
+	S84 S127 1.0 0.0
+	S213 S231 0.88658947 -1.0
+	S213 S247 0.034064185 -1.0
+	S227 S245 0.047869287 -1.0
+	S155 S255 0.035228834 -1.0
+	S154 S111 0.9169019 -1.0
+	S162 S85 0.045502786 -1.0
+	S178 S85 0.045502786 -1.0
+	S158 S111 0.963 -1.0
+	S81 S127 1.0 0.0
+	S184 S127 0.049436785 -1.0
+	S185 S222 0.0754237 -1.0
+	S51 S127 1.0 0.0
+	S127 S127 1.0 0.0
+	S34 S127 1.0 0.0
+	S189 S254 0.0039226273 -1.0
+	S128 S119 1.0 -1.0
+	S163 S215 0.9050604 -1.0
+	S210 S117 0.0017711637 -1.0
+	S187 S221 0.045502786 -1.0
+	S0 S127 1.0 0.0
+	S190 S127 0.049436785 -1.0
+	S179 S245 0.002366504 -1.0
+	S165 S214 0.0754237 -1.0
+	S189 S255 0.04551416 -1.0
+	S148 S103 0.963 -1.0
+	S103 S127 1.0 0.0
+	S213 S246 0.002935814 -1.0
+	S102 S127 1.0 0.0
+	S147 S247 0.035228834 -1.0
+	S147 S245 0.0017711637 -1.0
+	S163 S245 0.002366504 -1.0
+	S89 S127 1.0 0.0
+	S222 S127 0.037 -1.0
+	S213 S230 0.07641052 -1.0
+	S185 S223 0.87513953 -1.0
+	S167 S247 0.049436785 -1.0
+	S85 S127 1.0 0.0
+	S180 S87 0.9505632 -1.0
+	S223 S255 0.037 -1.0
+	S247 S247 1.0 -1.0
+	S131 S245 0.047869287 -1.0
+	S90 S127 1.0 0.0
+	S145 S231 0.88658947 -1.0
+	S191 S255 0.049436785 -1.0
+	S243 S245 0.047869287 -1.0
+	S177 S214 0.0754237 -1.0
+	S165 S215 0.87513953 -1.0
+	S71 S127 1.0 0.0
+	S50 S127 1.0 0.0
+	S3 S127 1.0 0.0
+	S187 S255 0.047070283 -1.0
+	S211 S245 0.0017711637 -1.0
+	S226 S117 0.047869287 -1.0
+	S193 S246 0.07934633 -1.0
+	S124 S127 1.0 0.0
+	S20 S127 1.0 0.0
+	S7 S127 1.0 0.0
+	S154 S109 0.046098124 -1.0
+	S88 S127 1.0 0.0
+	S145 S230 0.07641052 -1.0
+	S199 S247 1.0 -1.0
+	S178 S119 0.047070283 -1.0
+	S177 S215 0.87513953 -1.0
+	S94 S127 1.0 0.0
+	S16 S127 1.0 0.0
+	S242 S117 0.047869287 -1.0
+	S38 S127 1.0 0.0
+	S70 S127 1.0 0.0
+	S220 S111 0.963 -1.0
+	S166 S87 0.9505632 -1.0
+	S1 S127 1.0 0.0
+	S115 S127 1.0 0.0
+	S5 S127 1.0 0.0
+	S151 S247 0.037 -1.0
+	S214 S103 0.963 -1.0
+	S193 S247 0.9206537 -1.0
+	S18 S127 1.0 0.0
+	S86 S127 1.0 0.0
+	S55 S127 1.0 0.0
+	S36 S127 1.0 0.0
+	S153 S254 0.002935814 -1.0
+	S209 S230 0.07641052 -1.0
+	S66 S127 1.0 0.0
+	S218 S127 0.035228834 -1.0
+	S178 S87 0.9050604 -1.0
+	S250 S125 0.047869287 -1.0
+	S62 S127 1.0 0.0
+	S147 S231 0.9169019 -1.0
+	S186 S125 0.002366504 -1.0
+	S224 S119 1.0 -1.0
+	S219 S253 0.0017711637 -1.0
+	S83 S127 1.0 0.0
+	S158 S127 0.037 -1.0
+	S156 S127 0.037 -1.0
+	S133 S247 0.9206537 -1.0
+	S116 S127 1.0 0.0
+	S208 S103 0.963 -1.0
+	S209 S231 0.88658947 -1.0
+	S28 S127 1.0 0.0
+	S99 S127 1.0 0.0
+	S184 S95 0.9505632 -1.0
+	S179 S213 0.045502786 -1.0
+	S182 S119 0.049436785 -1.0
+	S153 S255 0.034064185 -1.0
+	S155 S237 0.046098124 -1.0
+	S215 S247 0.037 -1.0
+	S245 S246 0.07934633 -1.0
+	S219 S239 0.9169019 -1.0
+	S123 S127 1.0 0.0
+	S149 S231 0.88658947 -1.0
+	S19 S127 1.0 0.0
+	S229 S247 0.9206537 -1.0
+	S159 S255 0.037 -1.0
+	S35 S127 1.0 0.0
+	S229 S246 0.07934633 -1.0
+	S212 S103 0.963 -1.0
+	S225 S246 0.07934633 -1.0
+	S244 S119 1.0 -1.0
+	S240 S119 1.0 -1.0
+	S24 S127 1.0 0.0
+	S216 S111 0.963 -1.0
+	S146 S117 0.0017711637 -1.0
+	S149 S230 0.07641052 -1.0
+	S245 S247 0.9206537 -1.0
+	S57 S127 1.0 0.0
+	S144 S119 0.037 -1.0
+	S223 S239 0.963 -1.0
+	S208 S119 0.037 -1.0
+	S52 S127 1.0 0.0
+	S121 S127 1.0 0.0
+	S153 S238 0.07641052 -1.0
+	S181 S215 0.87513953 -1.0
+	S211 S229 0.046098124 -1.0
+	S181 S214 0.0754237 -1.0
+	S153 S239 0.88658947 -1.0
+	S59 S127 1.0 0.0
+	S221 S238 0.07641052 -1.0
+	S161 S247 0.04551416 -1.0
+	S145 S247 0.034064185 -1.0
+	S100 S127 1.0 0.0
+	S164 S87 0.9505632 -1.0
+	S196 S119 1.0 -1.0
+	S221 S239 0.88658947 -1.0
+	S120 S127 1.0 0.0
+	S54 S127 1.0 0.0
+	S214 S119 0.037 -1.0
+	S176 S119 0.049436785 -1.0
+	S21 S127 1.0 0.0
+	S93 S127 1.0 0.0
+	S161 S246 0.0039226273 -1.0
+	S210 S119 0.035228834 -1.0
+	S194 S117 0.047869287 -1.0
+	S195 S245 0.047869287 -1.0
+	S145 S246 0.002935814 -1.0
+	S130 S117 0.047869287 -1.0
+	S227 S247 0.95213073 -1.0
+	S215 S231 0.963 -1.0
+	S186 S93 0.045502786 -1.0
+	S220 S127 0.037 -1.0
+	S255 S255 1.0 -1.0
+	S195 S247 0.95213073 -1.0
+	S82 S127 1.0 0.0
+	S157 S254 0.002935814 -1.0
+	S159 S239 0.963 -1.0
+	S144 S103 0.963 -1.0
+	S148 S119 0.037 -1.0
+	S152 S127 0.037 -1.0
+	S117 S127 1.0 0.0
+	S87 S127 1.0 0.0
+	S152 S111 0.963 -1.0
+	S61 S127 1.0 0.0
+	S113 S127 1.0 0.0
+	S177 S246 0.0039226273 -1.0
+	S167 S215 0.9505632 -1.0
+	S185 S254 0.0039226273 -1.0
+	S157 S255 0.034064185 -1.0
+	S251 S255 0.95213073 -1.0
+	S69 S127 1.0 0.0
+	S150 S119 0.037 -1.0
+	S146 S101 0.046098124 -1.0
+	S179 S247 0.047070283 -1.0
+	S134 S119 1.0 -1.0
+	S97 S127 1.0 0.0
+	S4 S127 1.0 0.0
+	S39 S127 1.0 0.0
+	S101 S127 1.0 0.0
+	S129 S246 0.07934633 -1.0
+	S26 S127 1.0 0.0
+	S63 S127 1.0 0.0
+	S129 S247 0.9206537 -1.0
+	S185 S255 0.04551416 -1.0
+	S6 S127 1.0 0.0
+	S30 S127 1.0 0.0
+	S226 S119 0.95213073 -1.0
+	S190 S95 0.9505632 -1.0
+	S162 S87 0.9050604 -1.0
+	S177 S247 0.04551416 -1.0
+	S131 S247 0.95213073 -1.0
+	S146 S119 0.035228834 -1.0
+	S119 S127 1.0 0.0
+	S53 S127 1.0 0.0
+	S150 S103 0.963 -1.0
+	S114 S127 1.0 0.0
+	S164 S119 0.049436785 -1.0
+	S222 S111 0.963 -1.0
+	S188 S127 0.049436785 -1.0
+	S31 S127 1.0 0.0
+	S180 S119 0.049436785 -1.0
+	S181 S247 0.04551416 -1.0
+	S225 S247 0.9206537 -1.0
+	S189 S222 0.0754237 -1.0
+	S154 S125 0.0017711637 -1.0
+	S189 S223 0.87513953 -1.0
+	S162 S119 0.047070283 -1.0
+	S187 S253 0.002366504 -1.0
+	S197 S247 0.9206537 -1.0
+	S25 S127 1.0 0.0
+	S243 S247 0.95213073 -1.0
+	S242 S119 0.95213073 -1.0
+	S64 S127 1.0 0.0
+	S197 S246 0.07934633 -1.0
+	S23 S127 1.0 0.0
+	S32 S127 1.0 0.0
+	S133 S246 0.07934633 -1.0
+	S209 S247 0.034064185 -1.0
+	S151 S231 0.963 -1.0
+	S230 S119 1.0 -1.0
+	S250 S127 0.95213073 -1.0
+	S126 S127 1.0 0.0
+	S187 S223 0.9050604 -1.0
+	S181 S246 0.0039226273 -1.0
+	S209 S246 0.002935814 -1.0
+	S132 S119 1.0 -1.0
+	S191 S223 0.9505632 -1.0
+	S178 S117 0.002366504 -1.0
+	S163 S213 0.045502786 -1.0
+	S29 S127 1.0 0.0
+	S218 S109 0.046098124 -1.0
+	S67 S127 1.0 0.0
+	S218 S111 0.9169019 -1.0
+	S176 S87 0.9505632 -1.0
+	S241 S246 0.07934633 -1.0
+	S92 S127 1.0 0.0
+	S183 S247 0.049436785 -1.0
+	S37 S127 1.0 0.0
+	S157 S238 0.07641052 -1.0
+	S147 S229 0.046098124 -1.0
+	S154 S127 0.035228834 -1.0
+	S212 S119 0.037 -1.0
+	S56 S127 1.0 0.0
+	S183 S215 0.9505632 -1.0
+	S165 S247 0.04551416 -1.0
+	S218 S125 0.0017711637 -1.0
+	S68 S127 1.0 0.0
+	S217 S238 0.07641052 -1.0
+	S221 S255 0.034064185 -1.0
+	S48 S127 1.0 0.0
+	S219 S237 0.046098124 -1.0
+	S166 S119 0.049436785 -1.0
+	S98 S127 1.0 0.0
+	S163 S247 0.047070283 -1.0
+	S217 S255 0.034064185 -1.0
+	S249 S255 0.9206537 -1.0
+	S160 S87 0.9505632 -1.0
+	S165 S246 0.0039226273 -1.0
+	S217 S239 0.88658947 -1.0
+	S186 S95 0.9050604 -1.0
+	S246 S119 1.0 -1.0
+	S217 S254 0.002935814 -1.0
+	S160 S119 0.049436785 -1.0
+	S221 S254 0.002935814 -1.0
+	S65 S127 1.0 0.0
+	S228 S119 1.0 -1.0
+	S253 S255 0.9206537 -1.0
+	S27 S127 1.0 0.0
+	S95 S127 1.0 0.0
+	S162 S117 0.002366504 -1.0
+	S155 S239 0.9169019 -1.0
+	S161 S214 0.0754237 -1.0
+	S192 S119 1.0 -1.0
+	S33 S127 1.0 0.0
+	S188 S95 0.9505632 -1.0
+	S219 S255 0.035228834 -1.0
+	S253 S254 0.07934633 -1.0
+	S249 S254 0.07934633 -1.0
+	S22 S127 1.0 0.0
+	S112 S127 1.0 0.0
+	S58 S127 1.0 0.0
+	S96 S127 1.0 0.0
+	S146 S103 0.9169019 -1.0
+	S231 S247 1.0 -1.0
+	S118 S127 1.0 0.0
+	S211 S231 0.9169019 -1.0
+	S122 S127 1.0 0.0
+	S161 S215 0.87513953 -1.0
+	S194 S119 0.95213073 -1.0
+	S17 S127 1.0 0.0
+	S157 S239 0.88658947 -1.0
+	S135 S247 1.0 -1.0
+	S251 S253 0.047869287 -1.0
+	S210 S101 0.046098124 -1.0
+	S149 S246 0.002935814 -1.0
+	S182 S87 0.9505632 -1.0
+	S125 S127 1.0 0.0
+	S216 S127 0.037 -1.0
+	S179 S215 0.9050604 -1.0
+	S186 S127 0.047070283 -1.0
+	S211 S247 0.035228834 -1.0
+	S2 S127 1.0 0.0
+	S49 S127 1.0 0.0
+	S155 S253 0.0017711637 -1.0
+	S198 S119 1.0 -1.0
+	S60 S127 1.0 0.0
+	S210 S103 0.9169019 -1.0
+	S156 S111 0.963 -1.0
+	S80 S127 1.0 0.0
+	S241 S247 0.9206537 -1.0
+	S91 S127 1.0 0.0
+	S130 S119 0.95213073 -1.0
+	S149 S247 0.034064185 -1.0
+endaction
+
+action move_south
+	S84 S127 1.0 0.0
+	S214 S173 0.046098124 -1.0
+	S182 S191 0.035228834 -1.0
+	S154 S185 0.047869287 -1.0
+	S250 S249 0.047869287 -1.0
+	S247 S255 0.037 -1.0
+	S180 S187 0.037 -1.0
+	S132 S187 1.0 -1.0
+	S166 S157 0.045502786 -1.0
+	S51 S127 1.0 0.0
+	S127 S127 1.0 0.0
+	S34 S127 1.0 0.0
+	S0 S127 1.0 0.0
+	S160 S187 0.049436785 -1.0
+	S190 S191 0.95213073 -1.0
+	S224 S251 0.049436785 -1.0
+	S214 S191 0.035228834 -1.0
+	S103 S127 1.0 0.0
+	S102 S127 1.0 0.0
+	S244 S251 0.037 -1.0
+	S183 S191 0.037 -1.0
+	S222 S191 0.95213073 -1.0
+	S224 S219 0.9505632 -1.0
+	S246 S255 0.035228834 -1.0
+	S162 S185 0.002366504 -1.0
+	S164 S155 0.9505632 -1.0
+	S90 S127 1.0 0.0
+	S248 S251 1.0 -1.0
+	S219 S187 1.0 -1.0
+	S71 S127 1.0 0.0
+	S50 S127 1.0 0.0
+	S198 S189 0.047869287 -1.0
+	S210 S169 0.046098124 -1.0
+	S144 S171 0.963 -1.0
+	S3 S127 1.0 0.0
+	S158 S189 0.047869287 -1.0
+	S191 S191 1.0 -1.0
+	S199 S191 1.0 -1.0
+	S124 S127 1.0 0.0
+	S20 S127 1.0 0.0
+	S167 S159 0.9505632 -1.0
+	S212 S187 0.037 -1.0
+	S7 S127 1.0 0.0
+	S228 S251 0.049436785 -1.0
+	S230 S223 0.9050604 -1.0
+	S88 S127 1.0 0.0
+	S244 S235 0.963 -1.0
+	S130 S187 0.95213073 -1.0
+	S94 S127 1.0 0.0
+	S16 S127 1.0 0.0
+	S247 S239 0.963 -1.0
+	S38 S127 1.0 0.0
+	S70 S127 1.0 0.0
+	S254 S255 0.95213073 -1.0
+	S150 S173 0.046098124 -1.0
+	S162 S153 0.045502786 -1.0
+	S240 S235 0.963 -1.0
+	S115 S127 1.0 0.0
+	S159 S191 1.0 -1.0
+	S215 S191 0.037 -1.0
+	S208 S187 0.037 -1.0
+	S231 S223 0.9505632 -1.0
+	S180 S171 0.963 -1.0
+	S186 S187 0.95213073 -1.0
+	S18 S127 1.0 0.0
+	S151 S191 0.037 -1.0
+	S86 S127 1.0 0.0
+	S227 S219 0.9505632 -1.0
+	S55 S127 1.0 0.0
+	S36 S127 1.0 0.0
+	S231 S255 0.049436785 -1.0
+	S182 S175 0.9169019 -1.0
+	S218 S187 0.95213073 -1.0
+	S66 S127 1.0 0.0
+	S62 S127 1.0 0.0
+	S150 S175 0.9169019 -1.0
+	S240 S251 0.037 -1.0
+	S83 S127 1.0 0.0
+	S190 S189 0.047869287 -1.0
+	S226 S217 0.045502786 -1.0
+	S187 S187 1.0 -1.0
+	S116 S127 1.0 0.0
+	S166 S189 0.002366504 -1.0
+	S146 S187 0.035228834 -1.0
+	S28 S127 1.0 0.0
+	S147 S187 0.037 -1.0
+	S99 S127 1.0 0.0
+	S144 S187 0.037 -1.0
+	S251 S251 1.0 -1.0
+	S178 S185 0.0017711637 -1.0
+	S134 S189 0.047869287 -1.0
+	S123 S127 1.0 0.0
+	S146 S169 0.046098124 -1.0
+	S19 S127 1.0 0.0
+	S152 S187 1.0 -1.0
+	S215 S175 0.963 -1.0
+	S35 S127 1.0 0.0
+	S218 S185 0.047869287 -1.0
+	S246 S239 0.9169019 -1.0
+	S156 S187 1.0 -1.0
+	S130 S185 0.047869287 -1.0
+	S150 S189 0.0017711637 -1.0
+	S24 S127 1.0 0.0
+	S226 S249 0.002366504 -1.0
+	S52 S127 1.0 0.0
+	S163 S155 0.9505632 -1.0
+	S214 S189 0.0017711637 -1.0
+	S134 S191 0.95213073 -1.0
+	S151 S175 0.963 -1.0
+	S183 S175 0.963 -1.0
+	S167 S191 0.049436785 -1.0
+	S148 S171 0.963 -1.0
+	S59 S127 1.0 0.0
+	S210 S185 0.0017711637 -1.0
+	S100 S127 1.0 0.0
+	S120 S127 1.0 0.0
+	S54 S127 1.0 0.0
+	S223 S191 1.0 -1.0
+	S194 S187 0.95213073 -1.0
+	S178 S169 0.046098124 -1.0
+	S154 S187 0.95213073 -1.0
+	S242 S235 0.9169019 -1.0
+	S250 S251 0.95213073 -1.0
+	S162 S155 0.9050604 -1.0
+	S163 S187 0.049436785 -1.0
+	S255 S255 1.0 -1.0
+	S246 S253 0.0017711637 -1.0
+	S82 S127 1.0 0.0
+	S135 S191 1.0 -1.0
+	S148 S187 0.037 -1.0
+	S164 S187 0.049436785 -1.0
+	S226 S219 0.9050604 -1.0
+	S178 S171 0.9169019 -1.0
+	S254 S253 0.047869287 -1.0
+	S87 S127 1.0 0.0
+	S242 S249 0.0017711637 -1.0
+	S131 S187 1.0 -1.0
+	S230 S221 0.045502786 -1.0
+	S176 S187 0.037 -1.0
+	S243 S251 0.037 -1.0
+	S4 S127 1.0 0.0
+	S147 S171 0.963 -1.0
+	S39 S127 1.0 0.0
+	S26 S127 1.0 0.0
+	S222 S189 0.047869287 -1.0
+	S128 S187 1.0 -1.0
+	S63 S127 1.0 0.0
+	S6 S127 1.0 0.0
+	S30 S127 1.0 0.0
+	S192 S187 1.0 -1.0
+	S158 S191 0.95213073 -1.0
+	S196 S187 1.0 -1.0
+	S242 S233 0.046098124 -1.0
+	S119 S127 1.0 0.0
+	S184 S187 1.0 -1.0
+	S114 S127 1.0 0.0
+	S31 S127 1.0 0.0
+	S216 S187 1.0 -1.0
+	S162 S187 0.047070283 -1.0
+	S176 S171 0.963 -1.0
+	S228 S219 0.9505632 -1.0
+	S155 S187 1.0 -1.0
+	S243 S235 0.963 -1.0
+	S64 S127 1.0 0.0
+	S23 S127 1.0 0.0
+	S32 S127 1.0 0.0
+	S211 S171 0.963 -1.0
+	S126 S127 1.0 0.0
+	S160 S155 0.9505632 -1.0
+	S67 S127 1.0 0.0
+	S92 S127 1.0 0.0
+	S230 S253 0.002366504 -1.0
+	S56 S127 1.0 0.0
+	S68 S127 1.0 0.0
+	S48 S127 1.0 0.0
+	S214 S175 0.9169019 -1.0
+	S220 S187 1.0 -1.0
+	S194 S185 0.047869287 -1.0
+	S98 S127 1.0 0.0
+	S182 S173 0.046098124 -1.0
+	S150 S191 0.035228834 -1.0
+	S230 S255 0.047070283 -1.0
+	S146 S185 0.0017711637 -1.0
+	S188 S187 1.0 -1.0
+	S227 S251 0.049436785 -1.0
+	S210 S187 0.035228834 -1.0
+	S166 S159 0.9050604 -1.0
+	S210 S171 0.9169019 -1.0
+	S182 S189 0.0017711637 -1.0
+	S246 S237 0.046098124 -1.0
+	S166 S191 0.047070283 -1.0
+	S27 S127 1.0 0.0
+	S242 S251 0.035228834 -1.0
+	S95 S127 1.0 0.0
+	S252 S251 1.0 -1.0
+	S186 S185 0.047869287 -1.0
+	S179 S187 0.037 -1.0
+	S195 S187 1.0 -1.0
+	S198 S191 0.95213073 -1.0
+	S179 S171 0.963 -1.0
+	S22 S127 1.0 0.0
+	S112 S127 1.0 0.0
+	S58 S127 1.0 0.0
+	S96 S127 1.0 0.0
+	S118 S127 1.0 0.0
+	S122 S127 1.0 0.0
+	S211 S187 0.037 -1.0
+	S212 S171 0.963 -1.0
+	S178 S187 0.035228834 -1.0
+	S226 S251 0.047070283 -1.0
+	S208 S171 0.963 -1.0
+	S146 S171 0.9169019 -1.0
+	S2 S127 1.0 0.0
+	S60 S127 1.0 0.0
+	S80 S127 1.0 0.0
+	S91 S127 1.0 0.0
+endaction
+
+action move_west
+	S84 S127 1.0 0.0
+	S74 S127 1.0 0.0
+	S224 S167 0.047607627 -1.0
+	S220 S223 0.03517084 -1.0
+	S138 S159 0.037 -1.0
+	S110 S127 1.0 0.0
+	S168 S191 0.0018291611 -1.0
+	S213 S247 0.049436785 -1.0
+	S233 S175 0.049436785 -1.0
+	S139 S143 1.0 -1.0
+	S203 S143 1.0 -1.0
+	S246 S231 0.963 -1.0
+	S199 S199 1.0 -1.0
+	S236 S223 0.03517084 -1.0
+	S219 S159 1.0 -1.0
+	S75 S127 1.0 0.0
+	S81 S127 1.0 0.0
+	S233 S143 0.9505632 -1.0
+	S245 S215 0.9505632 -1.0
+	S196 S231 0.047607627 -1.0
+	S252 S255 0.0018291611 -1.0
+	S51 S127 1.0 0.0
+	S213 S215 0.9505632 -1.0
+	S187 S191 1.0 -1.0
+	S127 S127 1.0 0.0
+	S34 S127 1.0 0.0
+	S208 S167 0.047607627 -1.0
+	S179 S183 1.0 -1.0
+	S9 S127 1.0 0.0
+	S160 S135 0.9153924 -1.0
+	S0 S127 1.0 0.0
+	S144 S151 0.03517084 -1.0
+	S224 S151 0.03517084 -1.0
+	S232 S143 0.9153924 -1.0
+	S171 S175 1.0 -1.0
+	S229 S199 0.9505632 -1.0
+	S103 S127 1.0 0.0
+	S235 S175 1.0 -1.0
+	S102 S127 1.0 0.0
+	S207 S207 1.0 -1.0
+	S89 S127 1.0 0.0
+	S177 S183 0.049436785 -1.0
+	S108 S127 1.0 0.0
+	S176 S183 0.0018291611 -1.0
+	S248 S159 0.03517084 -1.0
+	S85 S127 1.0 0.0
+	S247 S247 1.0 -1.0
+	S90 S127 1.0 0.0
+	S176 S135 0.9153924 -1.0
+	S248 S143 0.9153924 -1.0
+	S225 S167 0.049436785 -1.0
+	S71 S127 1.0 0.0
+	S50 S127 1.0 0.0
+	S234 S175 0.963 -1.0
+	S186 S191 0.037 -1.0
+	S242 S167 0.963 -1.0
+	S208 S151 0.03517084 -1.0
+	S252 S207 0.9153924 -1.0
+	S3 S127 1.0 0.0
+	S236 S239 0.047607627 -1.0
+	S124 S127 1.0 0.0
+	S170 S191 0.037 -1.0
+	S224 S135 0.9153924 -1.0
+	S244 S199 0.9153924 -1.0
+	S152 S191 0.0018291611 -1.0
+	S152 S143 0.9153924 -1.0
+	S195 S135 1.0 -1.0
+	S88 S127 1.0 0.0
+	S131 S135 1.0 -1.0
+	S216 S143 0.9153924 -1.0
+	S78 S127 1.0 0.0
+	S137 S175 0.049436785 -1.0
+	S94 S127 1.0 0.0
+	S16 S127 1.0 0.0
+	S202 S143 0.963 -1.0
+	S70 S127 1.0 0.0
+	S254 S255 0.037 -1.0
+	S111 S127 1.0 0.0
+	S220 S239 0.047607627 -1.0
+	S240 S167 0.047607627 -1.0
+	S1 S127 1.0 0.0
+	S115 S127 1.0 0.0
+	S196 S215 0.03517084 -1.0
+	S198 S215 0.037 -1.0
+	S251 S191 1.0 -1.0
+	S18 S127 1.0 0.0
+	S86 S127 1.0 0.0
+	S161 S167 0.049436785 -1.0
+	S252 S223 0.03517084 -1.0
+	S221 S223 0.9505632 -1.0
+	S144 S135 0.9153924 -1.0
+	S144 S167 0.047607627 -1.0
+	S128 S135 0.9153924 -1.0
+	S196 S199 0.9153924 -1.0
+	S208 S183 0.0018291611 -1.0
+	S232 S159 0.03517084 -1.0
+	S146 S135 0.963 -1.0
+	S248 S175 0.047607627 -1.0
+	S153 S159 0.9505632 -1.0
+	S66 S127 1.0 0.0
+	S205 S239 0.049436785 -1.0
+	S162 S183 0.037 -1.0
+	S83 S127 1.0 0.0
+	S204 S239 0.047607627 -1.0
+	S228 S199 0.9153924 -1.0
+	S228 S231 0.047607627 -1.0
+	S116 S127 1.0 0.0
+	S250 S175 0.963 -1.0
+	S154 S143 0.963 -1.0
+	S137 S143 0.9505632 -1.0
+	S168 S159 0.03517084 -1.0
+	S216 S159 0.03517084 -1.0
+	S99 S127 1.0 0.0
+	S204 S223 0.03517084 -1.0
+	S105 S127 1.0 0.0
+	S123 S127 1.0 0.0
+	S19 S127 1.0 0.0
+	S232 S175 0.047607627 -1.0
+	S217 S191 0.049436785 -1.0
+	S192 S167 0.047607627 -1.0
+	S212 S231 0.047607627 -1.0
+	S35 S127 1.0 0.0
+	S72 S127 1.0 0.0
+	S225 S135 0.9505632 -1.0
+	S244 S247 0.0018291611 -1.0
+	S24 S127 1.0 0.0
+	S222 S207 0.963 -1.0
+	S244 S215 0.03517084 -1.0
+	S245 S247 0.049436785 -1.0
+	S212 S199 0.9153924 -1.0
+	S237 S239 0.049436785 -1.0
+	S57 S127 1.0 0.0
+	S109 S127 1.0 0.0
+	S107 S127 1.0 0.0
+	S200 S191 0.0018291611 -1.0
+	S184 S191 0.0018291611 -1.0
+	S163 S167 1.0 -1.0
+	S168 S143 0.9153924 -1.0
+	S186 S175 0.963 -1.0
+	S253 S223 0.9505632 -1.0
+	S218 S159 0.037 -1.0
+	S121 S127 1.0 0.0
+	S193 S167 0.049436785 -1.0
+	S200 S175 0.047607627 -1.0
+	S242 S183 0.037 -1.0
+	S222 S223 0.037 -1.0
+	S59 S127 1.0 0.0
+	S128 S183 0.0018291611 -1.0
+	S184 S175 0.047607627 -1.0
+	S104 S127 1.0 0.0
+	S196 S247 0.0018291611 -1.0
+	S100 S127 1.0 0.0
+	S120 S127 1.0 0.0
+	S248 S191 0.0018291611 -1.0
+	S204 S207 0.9153924 -1.0
+	S93 S127 1.0 0.0
+	S106 S127 1.0 0.0
+	S162 S167 0.963 -1.0
+	S236 S207 0.9153924 -1.0
+	S220 S255 0.0018291611 -1.0
+	S255 S255 1.0 -1.0
+	S197 S199 0.9505632 -1.0
+	S82 S127 1.0 0.0
+	S76 S127 1.0 0.0
+	S210 S151 0.037 -1.0
+	S41 S127 1.0 0.0
+	S117 S127 1.0 0.0
+	S226 S167 0.963 -1.0
+	S87 S127 1.0 0.0
+	S160 S151 0.03517084 -1.0
+	S230 S231 0.963 -1.0
+	S185 S191 0.049436785 -1.0
+	S113 S127 1.0 0.0
+	S200 S159 0.03517084 -1.0
+	S146 S151 0.037 -1.0
+	S77 S127 1.0 0.0
+	S238 S255 0.037 -1.0
+	S69 S127 1.0 0.0
+	S223 S223 1.0 -1.0
+	S152 S175 0.047607627 -1.0
+	S136 S159 0.03517084 -1.0
+	S232 S191 0.0018291611 -1.0
+	S97 S127 1.0 0.0
+	S209 S183 0.049436785 -1.0
+	S198 S199 0.963 -1.0
+	S241 S183 0.049436785 -1.0
+	S101 S127 1.0 0.0
+	S26 S127 1.0 0.0
+	S130 S135 0.963 -1.0
+	S208 S135 0.9153924 -1.0
+	S218 S143 0.963 -1.0
+	S240 S135 0.9153924 -1.0
+	S119 S127 1.0 0.0
+	S178 S183 0.037 -1.0
+	S237 S207 0.9505632 -1.0
+	S250 S191 0.037 -1.0
+	S114 S127 1.0 0.0
+	S184 S143 0.9153924 -1.0
+	S73 S127 1.0 0.0
+	S144 S183 0.0018291611 -1.0
+	S176 S167 0.047607627 -1.0
+	S216 S191 0.0018291611 -1.0
+	S224 S183 0.0018291611 -1.0
+	S155 S159 1.0 -1.0
+	S10 S127 1.0 0.0
+	S25 S127 1.0 0.0
+	S154 S159 0.037 -1.0
+	S64 S127 1.0 0.0
+	S201 S143 0.9505632 -1.0
+	S201 S175 0.049436785 -1.0
+	S210 S135 0.963 -1.0
+	S249 S159 0.9505632 -1.0
+	S32 S127 1.0 0.0
+	S206 S223 0.037 -1.0
+	S147 S151 1.0 -1.0
+	S169 S175 0.049436785 -1.0
+	S136 S143 0.9153924 -1.0
+	S194 S151 0.037 -1.0
+	S129 S167 0.049436785 -1.0
+	S230 S247 0.037 -1.0
+	S249 S191 0.049436785 -1.0
+	S145 S183 0.049436785 -1.0
+	S126 S127 1.0 0.0
+	S216 S175 0.047607627 -1.0
+	S227 S167 1.0 -1.0
+	S170 S175 0.963 -1.0
+	S152 S159 0.03517084 -1.0
+	S67 S127 1.0 0.0
+	S226 S183 0.037 -1.0
+	S192 S151 0.03517084 -1.0
+	S145 S151 0.9505632 -1.0
+	S92 S127 1.0 0.0
+	S252 S239 0.047607627 -1.0
+	S206 S207 0.963 -1.0
+	S214 S199 0.963 -1.0
+	S212 S247 0.0018291611 -1.0
+	S176 S151 0.03517084 -1.0
+	S56 S127 1.0 0.0
+	S240 S151 0.03517084 -1.0
+	S244 S231 0.047607627 -1.0
+	S178 S167 0.963 -1.0
+	S200 S143 0.9153924 -1.0
+	S68 S127 1.0 0.0
+	S177 S151 0.9505632 -1.0
+	S221 S255 0.049436785 -1.0
+	S153 S191 0.049436785 -1.0
+	S129 S135 0.9505632 -1.0
+	S79 S127 1.0 0.0
+	S48 S127 1.0 0.0
+	S234 S191 0.037 -1.0
+	S228 S215 0.03517084 -1.0
+	S217 S159 0.9505632 -1.0
+	S202 S159 0.037 -1.0
+	S168 S175 0.047607627 -1.0
+	S220 S207 0.9153924 -1.0
+	S98 S127 1.0 0.0
+	S161 S135 0.9505632 -1.0
+	S128 S167 0.047607627 -1.0
+	S11 S127 1.0 0.0
+	S160 S167 0.047607627 -1.0
+	S246 S247 0.037 -1.0
+	S136 S175 0.047607627 -1.0
+	S254 S239 0.963 -1.0
+	S65 S127 1.0 0.0
+	S169 S143 0.9505632 -1.0
+	S228 S247 0.0018291611 -1.0
+	S253 S255 0.049436785 -1.0
+	S27 S127 1.0 0.0
+	S240 S183 0.0018291611 -1.0
+	S95 S127 1.0 0.0
+	S138 S143 0.963 -1.0
+	S192 S183 0.0018291611 -1.0
+	S33 S127 1.0 0.0
+	S211 S151 1.0 -1.0
+	S209 S151 0.9505632 -1.0
+	S239 S239 1.0 -1.0
+	S42 S127 1.0 0.0
+	S185 S159 0.9505632 -1.0
+	S184 S159 0.03517084 -1.0
+	S193 S135 0.9505632 -1.0
+	S204 S255 0.0018291611 -1.0
+	S112 S127 1.0 0.0
+	S58 S127 1.0 0.0
+	S96 S127 1.0 0.0
+	S215 S215 1.0 -1.0
+	S8 S127 1.0 0.0
+	S160 S183 0.0018291611 -1.0
+	S118 S127 1.0 0.0
+	S236 S255 0.0018291611 -1.0
+	S122 S127 1.0 0.0
+	S231 S231 1.0 -1.0
+	S214 S215 0.037 -1.0
+	S17 S127 1.0 0.0
+	S194 S135 0.963 -1.0
+	S130 S151 0.037 -1.0
+	S125 S127 1.0 0.0
+	S205 S207 0.9505632 -1.0
+	S40 S127 1.0 0.0
+	S2 S127 1.0 0.0
+	S212 S215 0.03517084 -1.0
+	S49 S127 1.0 0.0
+	S197 S231 0.049436785 -1.0
+	S238 S239 0.963 -1.0
+	S136 S191 0.0018291611 -1.0
+	S229 S231 0.049436785 -1.0
+	S128 S151 0.03517084 -1.0
+	S192 S135 0.9153924 -1.0
+	S80 S127 1.0 0.0
+	S243 S183 1.0 -1.0
+	S43 S127 1.0 0.0
+	S91 S127 1.0 0.0
+	S241 S151 0.9505632 -1.0
+endaction
+
+action noop
+	S84 S127 1.0 0.0
+	S74 S127 1.0 0.0
+	S151 S151 1.0 -1.0
+	S110 S127 1.0 0.0
+	S199 S199 1.0 -1.0
+	S128 S128 1.0 -1.0
+	S75 S127 1.0 0.0
+	S81 S127 1.0 0.0
+	S171 S171 1.0 -1.0
+	S138 S138 1.0 -1.0
+	S209 S209 1.0 -1.0
+	S51 S127 1.0 0.0
+	S127 S127 1.0 0.0
+	S34 S127 1.0 0.0
+	S9 S127 1.0 0.0
+	S0 S127 1.0 0.0
+	S161 S161 1.0 -1.0
+	S202 S202 1.0 -1.0
+	S103 S127 1.0 0.0
+	S102 S127 1.0 0.0
+	S207 S207 1.0 -1.0
+	S89 S127 1.0 0.0
+	S135 S135 1.0 -1.0
+	S108 S127 1.0 0.0
+	S184 S184 1.0 -1.0
+	S85 S127 1.0 0.0
+	S166 S166 1.0 -1.0
+	S190 S190 1.0 -1.0
+	S47 S127 1.0 0.0
+	S185 S185 1.0 -1.0
+	S247 S247 1.0 -1.0
+	S157 S157 1.0 -1.0
+	S90 S127 1.0 0.0
+	S243 S243 1.0 -1.0
+	S71 S127 1.0 0.0
+	S50 S127 1.0 0.0
+	S186 S186 1.0 -1.0
+	S3 S127 1.0 0.0
+	S159 S159 1.0 -1.0
+	S191 S191 1.0 -1.0
+	S124 S127 1.0 0.0
+	S20 S127 1.0 0.0
+	S46 S127 1.0 0.0
+	S7 S127 1.0 0.0
+	S88 S127 1.0 0.0
+	S133 S133 1.0 -1.0
+	S78 S127 1.0 0.0
+	S94 S127 1.0 0.0
+	S16 S127 1.0 0.0
+	S38 S127 1.0 0.0
+	S70 S127 1.0 0.0
+	S111 S127 1.0 0.0
+	S172 S172 1.0 -1.0
+	S1 S127 1.0 0.0
+	S115 S127 1.0 0.0
+	S5 S127 1.0 0.0
+	S155 S155 1.0 -1.0
+	S45 S127 1.0 0.0
+	S152 S152 1.0 -1.0
+	S18 S127 1.0 0.0
+	S86 S127 1.0 0.0
+	S55 S127 1.0 0.0
+	S36 S127 1.0 0.0
+	S218 S218 1.0 -1.0
+	S129 S129 1.0 -1.0
+	S219 S219 1.0 -1.0
+	S66 S127 1.0 0.0
+	S160 S160 1.0 -1.0
+	S193 S193 1.0 -1.0
+	S139 S139 1.0 -1.0
+	S62 S127 1.0 0.0
+	S158 S158 1.0 -1.0
+	S195 S195 1.0 -1.0
+	S83 S127 1.0 0.0
+	S213 S213 1.0 -1.0
+	S142 S142 1.0 -1.0
+	S225 S225 1.0 -1.0
+	S187 S187 1.0 -1.0
+	S116 S127 1.0 0.0
+	S211 S211 1.0 -1.0
+	S136 S136 1.0 -1.0
+	S28 S127 1.0 0.0
+	S99 S127 1.0 0.0
+	S141 S141 1.0 -1.0
+	S212 S212 1.0 -1.0
+	S154 S154 1.0 -1.0
+	S251 S251 1.0 -1.0
+	S105 S127 1.0 0.0
+	S123 S127 1.0 0.0
+	S19 S127 1.0 0.0
+	S35 S127 1.0 0.0
+	S44 S127 1.0 0.0
+	S232 S232 1.0 -1.0
+	S72 S127 1.0 0.0
+	S217 S217 1.0 -1.0
+	S24 S127 1.0 0.0
+	S57 S127 1.0 0.0
+	S109 S127 1.0 0.0
+	S173 S173 1.0 -1.0
+	S107 S127 1.0 0.0
+	S189 S189 1.0 -1.0
+	S52 S127 1.0 0.0
+	S121 S127 1.0 0.0
+	S168 S168 1.0 -1.0
+	S224 S224 1.0 -1.0
+	S229 S229 1.0 -1.0
+	S59 S127 1.0 0.0
+	S252 S252 1.0 -1.0
+	S104 S127 1.0 0.0
+	S100 S127 1.0 0.0
+	S240 S240 1.0 -1.0
+	S120 S127 1.0 0.0
+	S54 S127 1.0 0.0
+	S222 S222 1.0 -1.0
+	S21 S127 1.0 0.0
+	S93 S127 1.0 0.0
+	S106 S127 1.0 0.0
+	S250 S250 1.0 -1.0
+	S205 S205 1.0 -1.0
+	S147 S147 1.0 -1.0
+	S249 S249 1.0 -1.0
+	S241 S241 1.0 -1.0
+	S255 S255 1.0 -1.0
+	S15 S127 1.0 0.0
+	S194 S194 1.0 -1.0
+	S233 S233 1.0 -1.0
+	S82 S127 1.0 0.0
+	S76 S127 1.0 0.0
+	S234 S234 1.0 -1.0
+	S197 S197 1.0 -1.0
+	S14 S127 1.0 0.0
+	S41 S127 1.0 0.0
+	S230 S230 1.0 -1.0
+	S117 S127 1.0 0.0
+	S87 S127 1.0 0.0
+	S253 S253 1.0 -1.0
+	S61 S127 1.0 0.0
+	S113 S127 1.0 0.0
+	S179 S179 1.0 -1.0
+	S220 S220 1.0 -1.0
+	S77 S127 1.0 0.0
+	S210 S210 1.0 -1.0
+	S153 S153 1.0 -1.0
+	S69 S127 1.0 0.0
+	S192 S192 1.0 -1.0
+	S223 S223 1.0 -1.0
+	S236 S236 1.0 -1.0
+	S140 S140 1.0 -1.0
+	S97 S127 1.0 0.0
+	S4 S127 1.0 0.0
+	S227 S227 1.0 -1.0
+	S39 S127 1.0 0.0
+	S101 S127 1.0 0.0
+	S26 S127 1.0 0.0
+	S165 S165 1.0 -1.0
+	S63 S127 1.0 0.0
+	S6 S127 1.0 0.0
+	S30 S127 1.0 0.0
+	S162 S162 1.0 -1.0
+	S180 S180 1.0 -1.0
+	S131 S131 1.0 -1.0
+	S198 S198 1.0 -1.0
+	S119 S127 1.0 0.0
+	S53 S127 1.0 0.0
+	S245 S245 1.0 -1.0
+	S246 S246 1.0 -1.0
+	S200 S200 1.0 -1.0
+	S204 S204 1.0 -1.0
+	S114 S127 1.0 0.0
+	S163 S163 1.0 -1.0
+	S31 S127 1.0 0.0
+	S73 S127 1.0 0.0
+	S183 S183 1.0 -1.0
+	S182 S182 1.0 -1.0
+	S10 S127 1.0 0.0
+	S25 S127 1.0 0.0
+	S64 S127 1.0 0.0
+	S144 S144 1.0 -1.0
+	S164 S164 1.0 -1.0
+	S23 S127 1.0 0.0
+	S32 S127 1.0 0.0
+	S169 S169 1.0 -1.0
+	S178 S178 1.0 -1.0
+	S126 S127 1.0 0.0
+	S29 S127 1.0 0.0
+	S177 S177 1.0 -1.0
+	S248 S248 1.0 -1.0
+	S67 S127 1.0 0.0
+	S12 S127 1.0 0.0
+	S237 S237 1.0 -1.0
+	S92 S127 1.0 0.0
+	S146 S146 1.0 -1.0
+	S228 S228 1.0 -1.0
+	S37 S127 1.0 0.0
+	S206 S206 1.0 -1.0
+	S56 S127 1.0 0.0
+	S216 S216 1.0 -1.0
+	S201 S201 1.0 -1.0
+	S181 S181 1.0 -1.0
+	S68 S127 1.0 0.0
+	S148 S148 1.0 -1.0
+	S79 S127 1.0 0.0
+	S48 S127 1.0 0.0
+	S188 S188 1.0 -1.0
+	S254 S254 1.0 -1.0
+	S98 S127 1.0 0.0
+	S132 S132 1.0 -1.0
+	S11 S127 1.0 0.0
+	S208 S208 1.0 -1.0
+	S235 S235 1.0 -1.0
+	S244 S244 1.0 -1.0
+	S130 S130 1.0 -1.0
+	S13 S127 1.0 0.0
+	S65 S127 1.0 0.0
+	S27 S127 1.0 0.0
+	S137 S137 1.0 -1.0
+	S95 S127 1.0 0.0
+	S134 S134 1.0 -1.0
+	S176 S176 1.0 -1.0
+	S33 S127 1.0 0.0
+	S239 S239 1.0 -1.0
+	S167 S167 1.0 -1.0
+	S42 S127 1.0 0.0
+	S203 S203 1.0 -1.0
+	S143 S143 1.0 -1.0
+	S22 S127 1.0 0.0
+	S145 S145 1.0 -1.0
+	S112 S127 1.0 0.0
+	S58 S127 1.0 0.0
+	S214 S214 1.0 -1.0
+	S96 S127 1.0 0.0
+	S215 S215 1.0 -1.0
+	S8 S127 1.0 0.0
+	S196 S196 1.0 -1.0
+	S118 S127 1.0 0.0
+	S122 S127 1.0 0.0
+	S150 S150 1.0 -1.0
+	S231 S231 1.0 -1.0
+	S174 S174 1.0 -1.0
+	S17 S127 1.0 0.0
+	S221 S221 1.0 -1.0
+	S125 S127 1.0 0.0
+	S156 S156 1.0 -1.0
+	S175 S175 1.0 -1.0
+	S170 S170 1.0 -1.0
+	S238 S238 1.0 -1.0
+	S40 S127 1.0 0.0
+	S2 S127 1.0 0.0
+	S49 S127 1.0 0.0
+	S60 S127 1.0 0.0
+	S226 S226 1.0 -1.0
+	S149 S149 1.0 -1.0
+	S80 S127 1.0 0.0
+	S43 S127 1.0 0.0
+	S242 S242 1.0 -1.0
+	S91 S127 1.0 0.0
+endaction
+
+discount factor 0.99
+maxiterations 10000

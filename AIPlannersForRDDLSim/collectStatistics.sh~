@@ -1,0 +1,10 @@
+#!/bin/bash
+MIN_RAM="-Xms2512m"
+MAX_RAM="-Xmx2512m"
+CLASSPATH=".:bin:lib/java_cup.jar:lib/grappa1_4.jar:lib/jlex.jar:xercesImpl.jar:xml-apis.jar"
+CLASS="util.ExecutionTimeStatistics"
+
+for i in "experiments/*"; do
+	echo "Arquivo: " $i
+#	(java $MIN_RAM $MAX_RAM -cp $CLASSPATH $CLASS "experiments/"$i) 2>> "experiments/AVG_"$i
+done

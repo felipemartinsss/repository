@@ -1,0 +1,25 @@
+// Instância adaptada do problema de paciente com cardiopatia (representado como MDP fatorado).
+
+non_fluents nf_cardiopatia_inst_mdp {
+	domain = cardiopatia_mdp;
+	objects {
+		caracteristica1: c1;
+		caracteristica2: c2;
+		caracteristica3: c3;
+		tratamento: {t};
+	};
+};
+
+instance cardiopatia_inst_mdp {
+	domain = cardiopatia_mdp;
+	non-fluents = nf_cardiopatia_inst_mdp;
+	init-state {
+		~apresenta (caracteristica1);
+		~apresenta (caracteristica2);
+		~apresenta (caracteristica3);
+	};
+	
+	max-nondef-actions = 1;
+	horizon = 40;
+	discount = 0.99;
+};

@@ -1,0 +1,25 @@
+// Domínio adaptado do artigo 'Model Minimization in MDPs' de Givan & Dean.
+
+domain example_givan_mdp {
+	requirements = {
+		reward-deterministic
+	};
+	
+	pvariables {
+		x1 : {state-fluent, bool, default = false};
+		x2 : {state-fluent, bool, default = false};
+		x3 : {state-fluent, bool, default = false};
+	};
+	
+	cpfs {
+		x1' = if (x1) then Bernoulli (0.8) 
+				else if (~x1 ^ x2) then Bernoulli (0.7)
+				else Bernoulli (0.9);
+		x2' = Bernoulli (0.7);
+		x3' = if (x2) then Bernoulli (0.7)
+				else if (~x2 ^ x3) then KronDelta (true)
+				else Bernoulli (0.5);
+	};
+	
+	reward = if (x1) then 1 else 0;
+}

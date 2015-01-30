@@ -1,0 +1,25 @@
+non-fluents nf_elevators_verysmall_inst_mdp__1 {
+	domain = elevators_mdp; 
+	objects { 
+		elevator : {e0};
+		floor : {f0,f1 }; 
+	}; 
+	non-fluents {
+		ELEVATOR-PENALTY-RIGHT-DIR = 0.75;
+		ELEVATOR-PENALTY-WRONG-DIR = 3.0;
+		ADJACENT-UP(f0,f1) = true;
+		TOP-FLOOR(f1) = true;
+		BOTTOM-FLOOR(f0) = true;
+ 	}; 
+ }
+instance elevators_verysmall_inst_mdp__1 { 
+	domain = elevators_mdp; 
+ 	non-fluents = nf_elevators_verysmall_inst_mdp__1;
+	init-state { 
+		elevator-at-floor(e0,f0);
+	};
+	max-nondef-actions = 1;
+	horizon = 40;
+	discount = 0.99;
+} 
+

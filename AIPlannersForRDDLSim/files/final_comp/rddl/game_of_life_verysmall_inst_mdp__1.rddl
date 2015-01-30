@@ -1,0 +1,39 @@
+non-fluents nf_game_of_life_verysmall_inst_mdp__1 {
+	domain = game_of_life_mdp;
+	objects {
+		x_pos : {x1,x2};
+		y_pos : {y1,y2};
+	};
+	non-fluents {
+		NOISE-PROB(x1,y1) = 0.29905248;
+		NEIGHBOR(x1,y1,x1,y2);
+		NEIGHBOR(x1,y1,x2,y1);
+		NEIGHBOR(x1,y1,x2,y2);
+		NOISE-PROB(x1,y2) = 0.23017517;
+		NEIGHBOR(x1,y2,x1,y1);
+		NEIGHBOR(x1,y2,x2,y1);
+		NEIGHBOR(x1,y2,x2,y2);
+		NOISE-PROB(x2,y1) = 0.28660825;
+		NEIGHBOR(x2,y1,x1,y1);
+		NEIGHBOR(x2,y1,x1,y2);
+		NEIGHBOR(x2,y1,x2,y2);
+		NOISE-PROB(x2,y2) = 0.14296718;
+		NEIGHBOR(x2,y2,x1,y1);
+		NEIGHBOR(x2,y2,x1,y2);
+		NEIGHBOR(x2,y2,x2,y1);
+	};
+}
+
+instance game_of_life_verysmall_inst_mdp__1 {
+	domain = game_of_life_mdp;
+	non-fluents = nf_game_of_life_verysmall_inst_mdp__1;
+	init-state {
+		alive(x1,y1);
+		alive(x1,y2);
+		alive(x2,y2);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 0.99;
+}

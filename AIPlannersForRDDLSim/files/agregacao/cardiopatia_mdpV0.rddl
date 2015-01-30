@@ -1,0 +1,106 @@
+// Adaptação do problema de paciente com cardiopatia (representado como MDP fatorado).
+
+domain cardiopatia_mdp {
+	requirements = {
+		reward-deterministic
+	};
+	
+	types {
+		sintoma: {@s1, @s2, @s3};
+		tratamento : {@drogaD1, @drogaD2, @transplante};
+	};
+	
+	pvariables {
+		CardiopatiaControladaSEC : { non-fluent, real, default = 0 };
+		CardiopatiaControladaCEC : { non-fluent, real, default = -2 };
+		AVC : { non-fluent, real, default = -85 };
+		Morte : { non-fluent, real, default = -100 };
+		apresenta (sintoma) : {state-fluent, bool, default = false};
+		aplicar(tratamento) : {action-fluent, bool, default = false};
+	};
+	
+	cpfs {
+		apresenta'(?x) = if (?x == @s1) then
+							if (aplicar(@drogaD1)) then
+								if (apresenta(@s1) | apresenta(@s3)) then KronDelta(true)
+								else if (apresenta(@s2)) then Bernoulli (0.6) 
+								else Bernoulli (0.2)
+							else if (aplicar(@drogaD2)) then
+								if (apresenta(@s1) | apresenta(@s3)) then KronDelta(true)
+								else if (apresenta(@s2)) then Bernoulli (0.65) 
+								else Bernoulli (0.2) 
+							else if (aplicar(@transplante)) then
+								if (~apresenta(@s1) ^ ~apresenta(@s2) ^ ~apresenta(@s3)) then Bernoulli (0.3)
+								else if ((~apresenta(@s1) ^ apresenta(@s2) ^ ~apresenta(@s3)) | 
+										 (apresenta(@s1) ^ ~apresenta(@s2) ^ apresenta(@s3))) then Bernoulli (0.4)
+								else KronDelta(true)
+							else
+								KronDelta(true) // outras acoes ainda não foram examinadas.
+						 else if (?x == @s2) then
+						 	if (aplicar(@drogaD1)) then
+						 		if (apresenta(@s1)) then
+						 			if (~apresenta (@s2) ^ apresenta(@s3)) then
+						 				Bernoulli (0.3)
+						 			else 
+						 				KronDelta (true)
+						 		else if (apresenta(@s3)) then
+						 			KronDelta (true)
+						 		else if (apresenta(@s2)) then
+						 			Bernoulli (0.4)
+						 		else
+						 			Bernoulli (0.5)
+						 	else if (aplicar(@drogaD2)) then
+						 		if (~apresenta(@s1) ^ ~apresenta(@s2) ^ ~apresenta(@s3)) then Bernoulli (0.4)
+								else if (~apresenta(@s1) ^ apresenta(@s2) ^ ~apresenta(@s3)) then Bernoulli (0.35) 
+								else if (apresenta(@s1) ^ ~apresenta(@s2) ^ apresenta(@s3)) then Bernoulli (0.5)
+								else KronDelta(true)
+							else if (aplicar(@transplante)) then KronDelta(true)
+							else
+						 		KronDelta(true) // outras acoes ainda não foram examinadas.
+						 else if (?x == @s3) then
+						 	if (aplicar(@drogaD1)) then
+						 		if (apresenta(@s1)) then
+						 			if (~apresenta (@s2) ^ apresenta(@s3)) then
+						 				Bernoulli (0.35)
+						 			else 
+						 				KronDelta (true)
+						 		else if (apresenta(@s3)) then
+						 			KronDelta (true)
+						 		else if (apresenta(@s2)) then
+						 			Bernoulli (0.4)
+						 		else
+						 			Bernoulli (0.8)
+						 	else if (aplicar(@drogaD2)) then
+						 		if (~apresenta(@s1) ^ ~apresenta(@s2) ^ ~apresenta(@s3)) then Bernoulli (0.4)
+								else if (~apresenta(@s1) ^ apresenta(@s2) ^ ~apresenta(@s3)) then Bernoulli (0.7)
+								else if (apresenta(@s1) ^ ~apresenta(@s2) ^ apresenta(@s3)) then KronDelta (false)
+								else KronDelta(true)
+						 	else if (aplicar(@transplante)) then
+						 		if (~apresenta(@s1) ^ ~apresenta(@s2) ^ ~apresenta(@s3)) then Bernoulli (0.7)
+								else if ((~apresenta(@s1) ^ apresenta(@s2) ^ ~apresenta(@s3)) | 
+										 (apresenta(@s1) ^ ~apresenta(@s2) ^ apresenta(@s3))) then Bernoulli (0.6)
+								else KronDelta(true)
+							else
+						 		KronDelta(true) // outras acoes ainda não foram examinadas.
+						 else
+						 	KronDelta(false);
+	};
+	
+	reward = if (~apresenta(@s1) ^ ~apresenta(@s2) ^ apresenta(@s3)) then CardiopatiaControladaSEC
+			 else if (~apresenta(@s1) ^ apresenta(@s2) ^ apresenta(@s3)) then CardiopatiaControladaCEC
+			 else if (apresenta(@s1) ^ ~apresenta(@s2) ^ ~apresenta(@s3)) then AVC
+			 else if (apresenta(@s1) ^ apresenta(@s2) ^ ~apresenta(@s3)) then Morte
+			 else if (apresenta(@s1) ^ apresenta(@s2) ^ apresenta(@s3)) then 0
+			 else if (aplicar(@drogaD1)) then // recompensa específica ao aplicar DrogaD1 como parte do tratamento.
+			 	if (~apresenta(@s1) ^ ~apresenta(@s3)) then -30
+			 	else -40
+			 else if (aplicar(@drogaD2)) then // recompensa específica ao aplicar DrogaD2 como parte do tratamento.
+			 	if (~apresenta(@s1) ^ ~apresenta(@s2) ^ ~apresenta(@s3)) then -20
+			 	else if (~apresenta(@s1) ^ apresenta(@s2) ^ ~apresenta(@s3)) then -25
+			 	else -30
+			 else if (aplicar(@transplante)) then // recompensa específica ao aplicar transplante como parte do tratamento.
+			 	if (~apresenta(@s1) ^ ~apresenta(@s2) ^ ~apresenta(@s3)) then -75
+			 	else -70
+			 else // Recompensa de noop que não existia no domínio original (mas é necessário especificar).
+			 	if (apresenta(@s1) ^ apresenta(@s2) ^ apresenta(@s3)) then 1 else -200;
+}

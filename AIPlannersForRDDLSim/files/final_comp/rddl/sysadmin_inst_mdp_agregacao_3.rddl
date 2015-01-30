@@ -1,0 +1,32 @@
+non-fluents nf_sysadmin_inst_mdp_agregacao_3 {
+	domain = sysadmin_mdp;
+	objects {
+		computer : {c1,c2,c3,c4};
+	};
+	non-fluents {
+		REBOOT-PROB = 0.05;
+		CONNECTED(c1,c2);
+		CONNECTED(c1,c3);
+		CONNECTED(c2,c3);
+		CONNECTED(c2,c4);
+		CONNECTED(c3,c1);
+		CONNECTED(c3,c2);
+		CONNECTED(c4,c1);
+		CONNECTED(c4,c2);
+	};
+}
+
+instance sysadmin_inst_mdp_agregacao_3 {
+	domain = sysadmin_mdp;
+	non-fluents = nf_sysadmin_inst_mdp_agregacao_3;
+	init-state {
+		running(c1);
+		running(c2);
+		running(c3);
+		running(c4);
+	};
+
+	max-nondef-actions = 1;
+	horizon  = 40;
+	discount = 0.99;
+}

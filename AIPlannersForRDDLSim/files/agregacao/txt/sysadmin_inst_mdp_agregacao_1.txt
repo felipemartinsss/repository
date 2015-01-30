@@ -1,0 +1,58 @@
+statevars
+	running__c1 running__c2 
+endstatevars
+
+states
+	S3, S2, S1, S0
+endstates
+
+statedescription
+	S0 [true, true]
+	S1 [false, true]
+	S3 [false, false]
+	S2 [true, false]
+endstatedescription
+
+action noop
+	S3 S0 0.0025 0.0
+	S0 S3 0.0025 2.0
+	S0 S1 0.0475 2.0
+	S3 S1 0.0475 0.0
+	S1 S0 0.035 1.0
+	S3 S3 0.9025 0.0
+	S1 S2 0.015 1.0
+	S0 S2 0.0475 2.0
+	S2 S3 0.285 1.0
+	S1 S3 0.285 1.0
+	S0 S0 0.9025 2.0
+	S2 S1 0.015 1.0
+	S2 S2 0.665 1.0
+	S3 S2 0.0475 0.0
+	S2 S0 0.035 1.0
+	S1 S1 0.665 1.0
+endaction
+
+action reboot__c1
+	S3 S0 0.05 -0.75
+	S0 S0 0.95 1.25
+	S2 S2 0.95 0.25
+	S2 S0 0.05 0.25
+	S3 S2 0.95 -0.75
+	S1 S0 0.7 0.25
+	S1 S2 0.3 0.25
+	S0 S2 0.05 1.25
+endaction
+
+action reboot__c2
+	S0 S0 0.95 1.25
+	S0 S1 0.05 1.25
+	S2 S1 0.3 0.25
+	S2 S0 0.7 0.25
+	S1 S0 0.05 0.25
+	S3 S0 0.05 -0.75
+	S1 S1 0.95 0.25
+	S3 S1 0.95 -0.75
+endaction
+
+discount factor 0.99
+maxiterations 10000

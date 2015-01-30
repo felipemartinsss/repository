@@ -1,0 +1,29 @@
+// Adaptação do problema de paciente com cardiopatia (representado como MDP fatorado).
+
+domain cardiopatia_mdp {
+	requirements = {
+		reward-deterministic
+	};
+	
+	types {
+		caracteristica1: object;
+		caracteristica2: object;
+		caracteristica3: object;
+		tratamento: {@drogaD1, @drogaD2, @drogaD3}
+	};
+	
+	pvariables {
+		apresenta (caracteristica1) : {state-fluent, bool, default = false};
+		apresenta (caracteristica2) : {state-fluent, bool, default = false};
+		apresenta (caracteristica3) : {state-fluent, bool, default = false};
+		aplicar (tratamento) : {action-fluent, bool, default = false};
+	};
+	
+	cpfs {
+		apresenta'(caracteristica1) = 1;
+		apresenta'(caracteristica2) = 1;
+		apresenta'(caracteristica3) = 1;
+	};
+	
+	reward = 1;
+}
